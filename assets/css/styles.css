@@ -1,3 +1,68 @@
 body{
     background-color: #1C2AAF;
 }
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+.main:nth-child(1) {
+    background: #3C39EB;
+    left: 350px;
+    top: 200px;
+    border-radius: 50px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    color: #fff;
+    font-family: Arial;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 10px 0;
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover {
+    border-bottom-color: #fff;
+}
+
+.main-head{
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+}
+
+.social{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+
+}
