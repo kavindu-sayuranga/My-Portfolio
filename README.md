@@ -1,6 +1,4 @@
-# My Personal Web Site
 
-## Description
 #### This website creates for showing some information about my career.I categorize them into few sections...
 * Who am I
 * What kind of services I provide
