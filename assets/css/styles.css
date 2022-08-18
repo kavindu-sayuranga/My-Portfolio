@@ -157,3 +157,53 @@ body{
     left: 1440px;
     top: 310px;
 }
+
+#about{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 539px;
+    top: 650px;
+    font-family: 'Arial';
+    font-size: 128px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+#abouttopic{
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.paragraph{
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: -49px;
+    text-align: justify;
+}
+
+.about{
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-top: -270px;
+}
+
+.cv{
+    position: absolute;
+    width: 137px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: -400px;
+    color: #3C39EB;
+    font-family: Arial;
+    z-index: 10;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
