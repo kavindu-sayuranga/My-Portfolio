@@ -6,12 +6,14 @@ body{
     height: 100px;
     width: auto;
     float: left;
+    margin-left: 20px;
     margin-top: 15px;
 }
 
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    margin-right: 100px;
 }
 
 .main{
@@ -58,11 +60,23 @@ body{
     font-family: Arial;
     text-transform: uppercase;
     color: white;
+    margin-top: -250px;
+
+}
+.hero-image{
+
+    height: 350px;
+    width: 353px;
+    margin-top: 13px;
+    margin-right: 200px;
 }
 
 .social{
     float: right;
     list-style: none;
-    margin-top: 40px;
+    margin-right: 20px;
+    padding: 0;
+
 
 }
+
