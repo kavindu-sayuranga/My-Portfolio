@@ -224,3 +224,110 @@ body{
     color: #FFFFFF;
     opacity: 0.4;
 }
+
+#chart{
+    position: absolute;
+    top: 1450px;
+    height: 80vh;
+    width: 66vw;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 250px;
+}
+
+#skill{
+    font-family: Arial;
+    color: black;
+    margin-left: 75px;
+    font-size: 20px;
+
+}
+
+#expert{
+    font-family: Arial;
+    color: #3C39EB;
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+.allskill{
+    list-style: none;
+    color: black;
+    font-family: Arial;
+    margin-left: 75px;
+    text-decoration: none;
+
+
+}
+
+.designset{
+    font-family: Arial;
+    color: black;
+    font-size: 18px;
+}
+
+.design{
+
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+
+.designlist{
+    list-style-type: none;
+    margin-left: -40px;
+
+}
+
+.webset{
+    margin-left: 300px;
+    margin-top: -305px;
+    font-size: 18px;
+
+}
+
+.web{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.weblist{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.softwareset{
+    margin-left: 600px;
+    margin-top: -223px;
+    font-size: 18px;
+
+
+}
+
+.software{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+
+.softwarelist{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.tool{
+    margin-left: 80px;
+    margin-top: 70px;
+    height: 130px;
+    width: 800px;
+}
