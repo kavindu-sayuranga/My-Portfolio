@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
     <link href="assets/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fonts/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
         header{
             position: relative;
             height: 80px;
-            box-shadow: -2px 6px 9px -4px #917a7a;
+            box-shadow: -2px 6px 9px -4px black;
         }
 
         header>img{
@@ -22,17 +23,18 @@
         }
 
         header>ul{
-            list-style-type: none;
             position: absolute;
             right: 30px;
             bottom: 0;
-            font-size: 25px;
+            font-size: 24px;
             font-family: Arial;
+            list-style: none;
+            color: #4a3a3a;
         }
 
         header>ul>li{
+            padding: 0 10px 0 10px;
             display: inline-block;
-            padding: 0px 10px;
         }
 
         header>ul>li:hover{
@@ -60,12 +62,11 @@
         }
         main>nav>ul>li{
             padding-top: 15px;
-            color: black;
         }
 
         main>nav>ul>li>a{
             text-decoration: none;
-            color: black;
+            color: white;
             padding-bottom: 4px;
             margin-left: 13px;
         }
@@ -77,11 +78,115 @@
         }
 
 
+        main>section{
+            margin-left: 220px;
+            padding: 10px;
+        }
 
+        main > section > section {
+            border: 1px solid black;
+            height: 300px;
+            position: relative;
+        }
 
+        main>section>section>div{
+            border: 1px solid black;
+            position: absolute;
+            height: 100%;
+            width: calc(100% / 3);
+        }
+
+        main>section>section>div:nth-child(1){
+            left: 0;
+            background: url("assets/images/about.png");
+            background-size: cover;
+        }
+
+        main>section>section>div:nth-child(2){
+            left: calc(100% /3);
+            background: url("assets/images/about.png");
+            background-size: cover;
+        }
+
+        main>section>section>div:nth-child(3){
+            left: calc((100% /3)*2);
+            background: url("assets/images/about.png");
+            background-size: cover;
+        }
+
+        footer{
+            position: relative;
+            background-color: #484848;
+            height: 50px;
+        }
+
+        footer>p{
+            width: 150px;
+            height: 15px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            color: white;
+        }
+        @media all and (max-width: 425px){
+            header{
+                height: 90px;
+            }
+            header>img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+                top: 0px;
+            }
+
+            header > ul {
+                right: 30px;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                font-size: 19px;
+                width: max-content;
+                margin: auto;
+                padding-left: 0;
+            }
+
+            main > nav {
+                display: none;
+            }
+
+            main > section {
+                margin-left: 0;
+            }
+
+            main > section > section {
+                height: 900px;
+            }
+            main>section>section>div{
+                position: absolute;
+                height:calc(100% / 3) ;
+                width: 100%;
+            }
+            main>section>section>div:nth-child(1){
+                top:0;
+                left: 0;
+            }
+            main>section>section>div:nth-child(2){
+                top:300px;
+                left: 0;
+            }
+            main>section>section>div:nth-child(3){
+                bottom:0;
+                left: 0;
+            }
+        }
     </style>
 </head>
 <body>
+
 <header>
     <img src="assets/images/ijse.png" alt="">
     <ul>
@@ -108,21 +213,44 @@
             <div></div>
             <div></div>
         </section>
-        <section>
-            <section>
-                <div></div>
-                <div></div>
-                <div></div>
-            </section>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium debitis, eligendi expedita fugiat
+            harum hic, inventore odit pariatur praesentium, quasi quo temporibus vitae! Architecto est nam nulla
+            perferendis recusandae.</p>
+        <p>Architecto, nam nisi. Dolor dolorem earum eos fugiat illum nostrum obcaecati perferendis quae quas quo, quod
+            reprehenderit sed suscipit totam ullam velit vitae. Esse eveniet mollitia nemo qui. Ex, inventore.</p>
+        <p>Accusantium adipisci aliquam architecto asperiores atque blanditiis commodi consequuntur dignissimos
+            doloremque dolorum esse est hic libero minus nemo neque odio officiis, quaerat quidem quisquam rem repellat
+            rerum sapiente sint veniam?</p>
+        <p>Assumenda aut blanditiis, deserunt eveniet hic ipsa labore mollitia nam pariatur perferendis placeat quo sit
+            vero? Ad aliquam cupiditate hic maiores nemo numquam reiciendis tenetur? Eaque enim et rem soluta?</p>
+        <p>A at delectus doloribus eius, error illum, in ipsum labore laborum molestiae officiis porro, quaerat qui quis
+            quos reprehenderit ullam. Accusantium atque deserunt distinctio minima optio quibusdam recusandae sed
+            vitae?</p>
+        <p>Assumenda cupiditate eaque esse eveniet, expedita nesciunt sequi? Architecto delectus exercitationem id ipsum
+            laudantium, natus necessitatibus nobis quasi reprehenderit sequi. Beatae doloribus est facilis, illum
+            impedit iste nulla soluta ullam?</p>
+        <p>Ab accusamus accusantium alias commodi, deleniti deserunt dignissimos doloremque eum facere fugiat minus nemo
+            nihil nulla numquam odit officia perferendis possimus, quas, qui quidem sequi sint sit tempora veniam
+            voluptatem.</p>
+        <p>A ad alias architecto, autem consectetur corporis cum dolores, ducimus eaque explicabo facilis fugiat harum
+            ipsam magni modi necessitatibus nesciunt, non placeat quisquam rem repudiandae similique soluta voluptate.
+            Ipsa, similique.</p>
+        <p>A ad alias architecto, autem consectetur corporis cum dolores, ducimus eaque explicabo facilis fugiat harum
+            ipsam magni modi necessitatibus nesciunt, non placeat quisquam rem repudiandae similique soluta voluptate.
+            Ipsa, similique.</p><p>A ad alias architecto, autem consectetur corporis cum dolores, ducimus eaque explicabo facilis fugiat harum
+        ipsam magni modi necessitatibus nesciunt, non placeat quisquam rem repudiandae similique soluta voluptate.
+        Ipsa, similique.</p><p>A ad alias architecto, autem consectetur corporis cum dolores, ducimus eaque explicabo facilis fugiat harum
+        ipsam magni modi necessitatibus nesciunt, non placeat quisquam rem repudiandae similique soluta voluptate.
+        Ipsa, similique.</p>
 
 
-
-
-
-        </section>
     </section>
 </main>
 
+<footer>
+    <p>Developed By IJSE</p>
+</footer>
 
 </body>
 </html>
