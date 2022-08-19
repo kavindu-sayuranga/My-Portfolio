@@ -113,7 +113,8 @@ body{
 
 
 #follow{
-    position: absolute;
+
+    position: fixed;
     left: 1374px;
     top: 260px;
     transform: rotate(270deg);
@@ -127,14 +128,14 @@ body{
 .verticalLine{
     height: 55px;
     border: 1px solid #FFFFFF;
-    position: absolute;
+    position: fixed;
     left: 1456px;
     top: 370px;
     color: white;
 }
 
 .facebook{
-    position: absolute;
+    position: fixed;
     width: 27px;
     height: 27px;
     left: 1440px;
@@ -142,7 +143,7 @@ body{
 }
 
 .instagram{
-    position: absolute;
+    position: fixed;
     width: 27px;
     height: 27px;
     left: 1440px;
@@ -150,7 +151,7 @@ body{
 }
 
 .linkedin{
-    position: absolute;
+    position: fixed;
     width: 27px;
     height: 27px;
     left: 1440px;
@@ -158,7 +159,7 @@ body{
 }
 
 .github{
-    position: absolute;
+    position: fixed;
     width: 27px;
     height: 27px;
     left: 1440px;
@@ -166,7 +167,7 @@ body{
 }
 
 .twitter{
-    position: absolute;
+    position: fixed;
     width: 27px;
     height: 27px;
     left: 1440px;
