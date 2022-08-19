@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 2</title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
@@ -31,6 +34,51 @@
             display: inline-block;
             padding: 0px 10px;
         }
+
+        header>ul>li:hover{
+            cursor: pointer;
+            color: red;
+        }
+
+        body>main{
+            position: relative;
+        }
+
+        main>nav{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: blueviolet;
+            width: 200px;
+            font-size: 25px;
+        }
+
+        main>nav>ul{
+            list-style: none;
+            padding-left: 20px;
+        }
+        main>nav>ul>li{
+            padding-top: 15px;
+            color: black;
+        }
+
+        main>nav>ul>li>a{
+            text-decoration: none;
+            color: black;
+            padding-bottom: 4px;
+            margin-left: 13px;
+        }
+
+        main>nav>ul>li:hover{
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+
+
+
     </style>
 </head>
 <body>
@@ -43,6 +91,37 @@
         <li>About Us</li>
     </ul>
 </header>
+
+<main>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i></i><a href="">Home</a></li>
+            <li><i class="fas fa-poll-h"></i><a href="">Service</a></li>
+            <li><i class="far fa-id-card"></i><a href="">Contacts</a></li>
+            <li><i class="fas fa-info-circle"></i><a href="">About Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <section>
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+
+
+
+
+
+        </section>
+    </section>
+</main>
 
 
 </body>
