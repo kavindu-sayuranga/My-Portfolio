@@ -1,5 +1,6 @@
 body{
     background-color: #1C2AAF;
+
 }
 
 .logo {
@@ -26,6 +27,7 @@ body{
     margin-top: 40px;
     color: #fff;
     font-family: Arial;
+
 }
 
 .main-nav li{
@@ -51,34 +53,42 @@ body{
 
 /* Main page*/
 .main{
+    position: absolute;
     width: 52vw;
     height: 50vh;
-    position: absolute;
     background: #3C39EB;
     left: 350px;
     top: 240px;
     border-radius: 120px;
+    z-index: 10;
+
+
 }
 
 .main-head{
+    position: absolute;
     font-family: Arial;
     text-transform: uppercase;
     color: white;
     margin-top: -250px;
     margin-left: 350px;
+    z-index: 10;
+
 }
 .hero-image{
 
     height: 350px;
     width: 353px;
-    margin-top: -16px;
+    margin-top: 13px;
     margin-right: 200px;
     margin-left: -8px;
+
 }
 .circle{
     height: 600px;
     width: 600px;
     margin-top: 0px;
+
 }
 
 
@@ -88,7 +98,7 @@ body{
     width: 137px;
     height: 50px;
     left: 420px;
-    top: 250px;
+    top: 268px;
     color: #3C39EB;
     font-family: Arial;
     z-index: 10;
@@ -96,9 +106,11 @@ body{
     border-color: #FFFFFF;
     background-color: #FFFFFF;
     font-weight: bold;
+
 }
 
 /*Social media links*/
+
 
 #follow{
     position: absolute;
@@ -110,6 +122,7 @@ body{
     font-size: 13px;
     height: 150px;
     width: 300px;
+
 }
 .verticalLine{
     height: 55px;
@@ -171,6 +184,7 @@ body{
     font-size: 128px;
     color: #FFFFFF;
     opacity: 0.4;
+
 }
 
 #abouttopic{
@@ -179,6 +193,7 @@ body{
     font-size: 25px;
     margin-top: 150px;
     margin-left: 30px;
+
 }
 
 .paragraph{
@@ -187,6 +202,7 @@ body{
     font-size: 18px;
     margin-left: -49px;
     text-align: justify;
+
 }
 
 .about{
@@ -233,7 +249,10 @@ body{
     background-color: white;
     border-radius: 50px;
     margin-left: 250px;
+
 }
+
+
 
 #skill{
     font-family: Arial;
