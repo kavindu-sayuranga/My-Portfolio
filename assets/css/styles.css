@@ -39,6 +39,7 @@ body{
     color: #ffff;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: inherit;
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
@@ -63,14 +64,14 @@ body{
     font-family: Arial;
     text-transform: uppercase;
     color: white;
-    margin-top: -270px;
+    margin-top: -250px;
     margin-left: 350px;
 }
 .hero-image{
 
     height: 350px;
     width: 353px;
-    margin-top: 12.5px;
+    margin-top: -16px;
     margin-right: 200px;
     margin-left: -8px;
 }
@@ -105,8 +106,8 @@ body{
     top: 260px;
     transform: rotate(270deg);
     color: #FFFFFF;
-    font-family:"Calibri";
-    font-size: 14px;
+    font-family:"Arial";
+    font-size: 13px;
     height: 150px;
     width: 300px;
 }
@@ -116,6 +117,7 @@ body{
     position: absolute;
     left: 1456px;
     top: 370px;
+    color: white;
 }
 
 .facebook{
@@ -158,6 +160,7 @@ body{
     top: 310px;
 }
 
+/*second page*/
 #about{
     position: absolute;
     width: 349px;
@@ -206,4 +209,18 @@ body{
     border-color: #FFFFFF;
     background-color: #FFFFFF;
     font-weight: bold;
+}
+
+/*third page*/
+
+#skills{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 539px;
+    top: 1350px;
+    font-family: 'Arial';
+    font-size: 128px;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
