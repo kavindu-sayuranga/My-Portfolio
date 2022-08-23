@@ -4,6 +4,7 @@ body{
 }
 
 .logo {
+    position: relative;
     height: 100px;
     width: auto;
     float: left;
@@ -32,7 +33,8 @@ body{
 
 .main-nav li{
     display: inline-block;
-    margin-left: 50px;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
 }
 
 .main-nav li a:link,
@@ -61,6 +63,8 @@ body{
     top: 240px;
     border-radius: 120px;
     z-index: 10;
+    background-position: inherit;
+
 
 
 }
@@ -101,7 +105,6 @@ body{
     top: 268px;
     color: #3C39EB;
     font-family: Arial;
-    z-index: 10;
     border-radius: 15px;
     border-color: #FFFFFF;
     background-color: #FFFFFF;
