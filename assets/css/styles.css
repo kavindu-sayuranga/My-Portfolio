@@ -4,13 +4,28 @@ body{
 }
 
 
+header{
+    position: fixed;
+    z-index: 5;
+    height: 50px;
+    width: 98.73vw;
+}
+
+.MenuRectangle{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 80px;
+    width: 98.73vw;
+    background: #1C2AAF;;
+}
 .logo {
     position: relative;
     height: 100px;
     width: auto;
     float: left;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: -8px;
 }
 
 /*reusable*/
@@ -26,7 +41,7 @@ body{
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 28px;
     color: #fff;
     font-family: Arial;
 
@@ -36,6 +51,7 @@ body{
     display: inline-block;
     padding: 0 10px 0 10px;
     font-size: 18px;
+    position: relative;
 }
 
 .main-nav li a:link,
@@ -64,7 +80,6 @@ body{
     left: 25%;
     top: 30%;
     border-radius: 120px;
-    z-index: 10;
     background-position: inherit;
 
 
@@ -72,7 +87,7 @@ body{
 }
 
 .main-head{
-    position: relative;
+    position: absolute;
     font-family: Arial;
     text-transform: uppercase;
     color: white;
@@ -107,7 +122,7 @@ body{
 .circle{
     height: 85vh;
     width: 40vw;
-    margin-top: 0px;
+    margin-top: 100px;
 
 }
 
@@ -250,7 +265,6 @@ body{
     margin-left: -400px;
     color: #3C39EB;
     font-family: Arial;
-    z-index: 10;
     border-radius: 15px;
     border-color: #FFFFFF;
     background-color: #FFFFFF;
