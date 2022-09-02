@@ -702,18 +702,18 @@ header{
     margin-bottom: 15px;
 }
 
-/*#let{*/
-/*    position: absolute;*/
-/*    width: 600px;*/
-/*    height: 46px;*/
-/*    left: 30%;*/
-/*    top: 3110px;*/
-/*    font-family: 'Arial';*/
-/*    color: white;*/
-/*    z-index: 1;*/
-/*    font-size: 35px;*/
+#let{
+    position: relative;
+    width: 600px;
+    height: 46px;
+    left: 30%;
+    top: 1340px;
+    font-family: 'Arial';
+    color: white;
+    z-index: 1;
+    font-size: 35px;
 
-/*}*/
+}
 
 /*.first{*/
 /*    position: absolute;*/
@@ -751,10 +751,11 @@ header{
 /*    position: absolute;*/
 /*    width: 255px;*/
 /*    height: 29px;*/
-/*    left: 37.5%;*/
-/*    top: 3205px;*/
+/*    left: 43%;*/
+/*    top: 3270px;*/
 /*    font-size: 15px;*/
 /*    font-family: 'Arial';*/
 /*    color: white;*/
 /*    z-index: 1;*/
 /*}*/
+
