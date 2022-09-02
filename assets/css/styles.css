@@ -396,6 +396,13 @@ body{
 
 }
 
-#contact{
-
+#mypro{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 680px;
+    top: 2350px;
+    font-family: 'Arial';
+    font-size: 25px;
+    color: #FFFFFF;
 }
