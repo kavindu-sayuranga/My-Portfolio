@@ -675,3 +675,86 @@ header{
     transform: rotate(-55deg);
 }
 
+/*Fifth Page*/
+
+.contactRec{
+    position: relative;
+    width: 98.73vw;
+    height: 400px;
+    left: 0px;
+    top: 1700px;
+    z-index: 1;
+    fill: black;
+
+
+}
+
+#get{
+    position: absolute;
+    width: 287px;
+    height: 46px;
+    left: 41%;
+    top: 3070px;
+    font-family: 'Arial';
+    color: white;
+    z-index: 1;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+/*#let{*/
+/*    position: absolute;*/
+/*    width: 600px;*/
+/*    height: 46px;*/
+/*    left: 30%;*/
+/*    top: 3110px;*/
+/*    font-family: 'Arial';*/
+/*    color: white;*/
+/*    z-index: 1;*/
+/*    font-size: 35px;*/
+
+/*}*/
+
+/*.first{*/
+/*    position: absolute;*/
+/*    width: 972px;*/
+/*    height: 29px;*/
+/*    left: 19%;*/
+/*    top: 3180px;*/
+/*    font-family: 'Arial';*/
+/*    font-size: 20px;*/
+/*    color: white;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.second{*/
+/*    position: absolute;*/
+/*    width: 972px;*/
+/*    height: 29px;*/
+/*    left: 19%;*/
+/*    top: 3210px;*/
+/*    font-family: 'Arial';*/
+/*    font-size: 20px;*/
+/*    color: white;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.smallpic{*/
+/*    position: absolute;*/
+/*    left: 42%;*/
+/*    top: 3280px;*/
+/*    z-index: 2;*/
+/*    height: 35px;*/
+/*}*/
+
+/*#reply{*/
+/*    position: absolute;*/
+/*    width: 255px;*/
+/*    height: 29px;*/
+/*    left: 37.5%;*/
+/*    top: 3205px;*/
+/*    font-size: 15px;*/
+/*    font-family: 'Arial';*/
+/*    color: white;*/
+/*    z-index: 1;*/
+/*}*/
