@@ -739,13 +739,13 @@ header{
     z-index: 1;
 }
 
-/*.smallpic{*/
-/*    position: absolute;*/
-/*    left: 42%;*/
-/*    top: 3280px;*/
-/*    z-index: 2;*/
-/*    height: 35px;*/
-/*}*/
+.smallpic{
+    position: absolute;
+    left: 42%;
+    top: 3280px;
+    z-index: 2;
+    height: 35px;
+}
 
 /*#reply{*/
 /*    position: absolute;*/
