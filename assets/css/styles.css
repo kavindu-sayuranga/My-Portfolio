@@ -727,17 +727,17 @@ header{
     z-index: 1;
 }
 
-/*.second{*/
-/*    position: absolute;*/
-/*    width: 972px;*/
-/*    height: 29px;*/
-/*    left: 19%;*/
-/*    top: 3210px;*/
-/*    font-family: 'Arial';*/
-/*    font-size: 20px;*/
-/*    color: white;*/
-/*    z-index: 1;*/
-/*}*/
+.second{
+    position: absolute;
+    width: 972px;
+    height: 29px;
+    left: 19%;
+    top: 3210px;
+    font-family: 'Arial';
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
 
 /*.smallpic{*/
 /*    position: absolute;*/
