@@ -715,17 +715,17 @@ header{
 
 }
 
-/*.first{*/
-/*    position: absolute;*/
-/*    width: 972px;*/
-/*    height: 29px;*/
-/*    left: 19%;*/
-/*    top: 3180px;*/
-/*    font-family: 'Arial';*/
-/*    font-size: 20px;*/
-/*    color: white;*/
-/*    z-index: 1;*/
-/*}*/
+.first{
+    position: absolute;
+    width: 972px;
+    height: 29px;
+    left: 19%;
+    top: 3180px;
+    font-family: 'Arial';
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
 
 /*.second{*/
 /*    position: absolute;*/
