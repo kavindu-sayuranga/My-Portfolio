@@ -747,15 +747,15 @@ header{
     height: 35px;
 }
 
-/*#reply{*/
-/*    position: absolute;*/
-/*    width: 255px;*/
-/*    height: 29px;*/
-/*    left: 43%;*/
-/*    top: 3270px;*/
-/*    font-size: 15px;*/
-/*    font-family: 'Arial';*/
-/*    color: white;*/
-/*    z-index: 1;*/
-/*}*/
+#reply{
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    left: 43%;
+    top: 3270px;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: white;
+    z-index: 1;
+}
 
