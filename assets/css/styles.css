@@ -77,15 +77,30 @@ body{
     color: white;
     margin-top: -31%;
     margin-left: 50%;
+    background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: inherit;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
 
+
+}
+
+@keyframes animate {
+    to{
+        background-position: 200% center;
+    }
 }
 .hero-image{
 
     height: 51.9vh;
-    width: 25vw;
-    margin-top: -1%;
-    margin-left: 0%;
-    border-bottom-left-radius: 34%;
+    width: 25.5vw;
+    margin-top: -1.5%;
+    margin-left: -0.3%;
+    border-bottom-left-radius: 33%;
 
 }
 .circle{
@@ -104,11 +119,21 @@ body{
     left: 55%;
     top:75%;
     color: #3C39EB;
+    /*color: white;*/
     font-family: Arial;
     border-radius: 15px;
     border-color: #FFFFFF;
     background-color: #FFFFFF;
     font-weight: bold;
+
+    /*background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);*/
+    /*background-size: 200% auto;*/
+    /*color: #000;*/
+    /*background-clip: inherit;*/
+    /*text-fill-color: transparent;*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    /*animation: animate 2s linear infinite;*/
 
 }
 
