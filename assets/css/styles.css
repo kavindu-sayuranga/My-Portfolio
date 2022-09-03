@@ -686,7 +686,7 @@ header{
 
 .contactRec{
     position: relative;
-    width: 98.73vw;
+    width: 98.90vw;
     height: 400px;
     left: 0px;
     top: 1700px;
@@ -705,7 +705,7 @@ header{
     font-family: 'Arial';
     color: white;
     z-index: 1;
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 15px;
 }
 
@@ -718,7 +718,7 @@ header{
     font-family: 'Arial';
     color: white;
     z-index: 1;
-    font-size: 35px;
+    font-size: 33px;
 
 }
 
@@ -729,7 +729,7 @@ header{
     left: 19%;
     top: 3180px;
     font-family: 'Arial';
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     z-index: 1;
 }
@@ -741,7 +741,7 @@ header{
     left: 19%;
     top: 3210px;
     font-family: 'Arial';
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     z-index: 1;
 }
@@ -760,7 +760,7 @@ header{
     height: 29px;
     left: 43%;
     top: 3270px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Arial';
     color: white;
     z-index: 1;
@@ -805,3 +805,27 @@ header{
     color: white;
 }
 
+body>footer>section>section:nth-child(2)>hr{
+    position: absolute;
+    width: 98.6vw;
+    height: 0px;
+    left: 0px;
+    top: 3430px;
+    border: 1px solid #FFFFFF;
+    z-index: 1;
+}
+
+body>footer>section>section:nth-child(2)>p{
+    position: absolute;
+    width: 260px;
+    height: 14px;
+    right: 630px;
+    top: 3430px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 10px;*/
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 1;
+}
