@@ -6,7 +6,7 @@ body{
 
 header{
     position: fixed;
-    z-index: 5;
+    z-index: 15;
     height: 50px;
     width: 98.73vw;
 }
@@ -167,6 +167,7 @@ header{
     font-size: 13px;
     height: 150px;
     width: 300px;
+    z-index: 3;
 
 }
 .verticalLine{
@@ -176,6 +177,7 @@ header{
     left: 1456px;
     top: 370px;
     color: white;
+    z-index: 3;
 }
 
 .facebook{
@@ -184,6 +186,7 @@ header{
     height: 27px;
     left: 1440px;
     top: 150px;
+    z-index: 3;
 }
 
 .instagram{
@@ -192,6 +195,7 @@ header{
     height: 27px;
     left: 1440px;
     top: 190px;
+    z-index: 3;
 }
 
 .linkedin{
@@ -200,6 +204,7 @@ header{
     height: 27px;
     left: 1440px;
     top: 230px;
+    z-index: 3;
 }
 
 .github{
@@ -208,6 +213,7 @@ header{
     height: 27px;
     left: 1440px;
     top: 270px;
+    z-index: 3;
 }
 
 .twitter{
@@ -216,6 +222,7 @@ header{
     height: 27px;
     left: 1440px;
     top: 310px;
+    z-index: 3;
 }
 
 /*second page*/
@@ -757,5 +764,44 @@ header{
     font-family: 'Arial';
     color: white;
     z-index: 1;
+}
+
+/*contact us page*/
+
+.mail{
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    top: 3350px;
+    margin-left: -300px;
+
+    font-family: Arial;
+    border-radius: 9px;
+    border-color: blue;
+    background-color: blue;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.message{
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    top: 3350px;
+    margin-left: 50px;
+
+    font-family: Arial;
+    border-radius: 9px;
+    border-color: limegreen;
+    background-color: limegreen;
+    font-weight: bold;
+    z-index: 1;
+}
+#email{
+    color: white;
+}
+
+#number{
+    color: white;
 }
 
