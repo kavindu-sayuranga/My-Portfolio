@@ -11,6 +11,8 @@ header{
     width: 98.73vw;
 }
 
+
+
 .MenuRectangle{
     position: absolute;
     left: 0px;
@@ -829,3 +831,5 @@ body>footer>section>section:nth-child(2)>p{
     color: #FFFFFF;
     z-index: 1;
 }
+
+
