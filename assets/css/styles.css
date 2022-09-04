@@ -689,9 +689,9 @@ header{
 .contactRec{
     position: relative;
     width: 98.90vw;
-    height: 400px;
+    height: 430px;
     left: 0px;
-    top: 1700px;
+    top: 1710px;
     z-index: 1;
     fill: black;
 
@@ -716,7 +716,7 @@ header{
     width: 600px;
     height: 46px;
     left: 30%;
-    top: 1340px;
+    top: 1320px;
     font-family: 'Arial';
     color: white;
     z-index: 1;
@@ -822,7 +822,7 @@ body>footer>section>section:nth-child(2)>p{
     width: 260px;
     height: 14px;
     right: 630px;
-    top: 3430px;
+    top: 3460px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
