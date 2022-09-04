@@ -397,13 +397,102 @@ header{
     margin-left: -40px;
 }
 
-.tool{
-    margin-left: 80px;
-    margin-top: 70px;
-    height: 130px;
-    width: 800px;
+.java{
+    margin-left: 120px;
+    margin-top: 100px;
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
 }
 
+.js{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.html{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.css{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.mysql{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.hibernate{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.javafx{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.intelij{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.eclipes{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.figma{
+    height: 50px;
+    width: auto;
+    padding-right: 120px;
+
+}
+
+.vscode{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+    margin-left: 120px;
+
+
+}
+
+.githubl{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+
+
+}
+
+.slack{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+
+}
 
 /*fourth page*/
 
