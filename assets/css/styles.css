@@ -604,7 +604,7 @@ header{
 .fifth_page{
     height: 110vh;
     width: auto;
-    border: 10px solid black;
+    border: 10px solid #1C2AAF;
 }
 /*#1C2AAF*/
 #project{
@@ -668,6 +668,7 @@ header{
     font-family: Arial;
     font-size: 20px;
     text-align: center;
+    color: #1C2AAF;
 }
 
 .project-img{
@@ -737,9 +738,18 @@ header{
     width: 120px;
     left: 680px;
     margin-top: 740px;
+    background-color: #1C2AAF;
+    color: white;
+    border-color: white;
+
+    font-family: Arial;
+    border-radius: 20px;
+}
+
+.more_button:hover {
     background-color: white;
     color: #1C2AAF;
-    box-shadow: 0px 1px 8px 3px black;
+    border: 3px solid #1C2AAF;
 }
 
 
