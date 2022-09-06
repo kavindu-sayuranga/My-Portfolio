@@ -7,7 +7,8 @@
 * My contact details
 
 
-![Desktop - 1](https://user-images.githubusercontent.com/101160368/184604986-988f3931-4512-4c6c-b5f5-9c4598a6fb03.png)
+![Desktop - 1](https://user-images.githubusercontent.com/101160368/188707574-07af2162-3a43-48a2-9009-0dc490902f7e.png)
+
 
 
 ## Tech/framework used
