@@ -12,7 +12,10 @@ header{
     width: 98.73vw;
 }
 
-
+.first_page{
+    height: 100vh;
+    width: auto;
+}
 
 .MenuRectangle{
     position: absolute;
@@ -84,8 +87,6 @@ header{
     top: 30%;
     border-radius: 120px;
     background-position: inherit;
-
-
 
 }
 
@@ -229,12 +230,19 @@ header{
 }
 
 /*second page*/
+
+.second_page{
+    height: 90vh;
+    width: auto;
+    border: 10px solid #1C2AAF;
+}
+/*#1C2AAF*/
 #about{
     position: absolute;
     width: 349px;
     height: 147px;
     left: 539px;
-    top: 650px;
+    top: 700px;
     font-family: 'Arial';
     font-size: 128px;
     color: #FFFFFF;
@@ -246,7 +254,7 @@ header{
     color: white;
     font-family: Arial;
     font-size: 25px;
-    margin-top: 150px;
+    margin-top: 185px;
     margin-left: 30px;
 
 }
@@ -257,32 +265,137 @@ header{
     font-size: 18px;
     margin-left: -49px;
     text-align: justify;
-
+    margin-top: 80px;
 }
 
 .about{
     height: 500px;
     width: 500px;
     float: right;
-    margin-top: -270px;
+    margin-top: -250px;
+
+
 }
 
 .cv{
     position: absolute;
     width: 137px;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: -400px;
-    color: #3C39EB;
+    color: #FFFFFF;
     font-family: Arial;
     border-radius: 15px;
     border-color: #FFFFFF;
-    background-color: #FFFFFF;
+    background-color: #1C2AAF;
     font-weight: bold;
+}
+
+.cv:hover {
+    background-color: white;
+    color: #1C2AAF;
+
+    border: 3px solid #1C2AAF;
 }
 
 /*third page*/
 
+.third_page{
+    height: 120vh;
+    width: auto;
+    border: 10px solid #1C2AAF;
+}
+/*#1C2AAF*/
+#services{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 519px;
+    top: 1380px;
+    font-family: 'Arial';
+    font-size: 128px;
+    color: #FFFFFF;
+    opacity: 0.4;
+
+}
+.s1{
+    width: 25vw;
+    height: 61vh;
+
+    background-color: white;
+
+    position: absolute;
+
+    left: 80px;
+    top: 1680px;
+    border-radius: 120px;
+    background-position: inherit;
+}
+
+.s2{
+    width: 25vw;
+    height: 61vh;
+
+    background-color: white;
+
+    position: absolute;
+
+    left: 540px;
+    top: 1680px;
+    border-radius: 100px;
+    background-position: inherit;
+}
+
+.s3{
+    width: 25vw;
+    height: 61vh;
+
+    background-color: white;
+
+    position: absolute;
+
+    left: 1000px;
+    top: 1680px;
+    border-radius: 100px;
+    background-position: inherit;
+}
+
+.service-img{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+}
+
+.service-p1{
+    font-size: 20px;
+    font-family: Arial;
+    /*margin-left: 80px;*/
+    text-align: center;
+}
+
+.service-p2{
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+}
+/*!*fourth page*!*/
+
+.fourth_page{
+    height: 100vh;
+    width: auto;
+    border: 10px solid #1C2AAF;
+}
+/*#1C2AAF*/
+#chart{
+    position: absolute;
+    top: 2400px;
+    height: 80vh;
+    width: 66vw;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 250px;
+
+}
 #skills{
     position: absolute;
     width: 349px;
@@ -295,16 +408,7 @@ header{
     opacity: 0.4;
 }
 
-#chart{
-    position: absolute;
-    top: 1450px;
-    height: 80vh;
-    width: 66vw;
-    background-color: white;
-    border-radius: 50px;
-    margin-left: 250px;
 
-}
 
 
 
@@ -495,14 +599,20 @@ header{
 
 }
 
-/*fourth page*/
+/*!*fifth page*!*/
 
+.fifth_page{
+    height: 110vh;
+    width: auto;
+    border: 10px solid black;
+}
+/*#1C2AAF*/
 #project{
     position: absolute;
     width: 349px;
     height: 147px;
     left: 539px;
-    top: 2100px;
+    top: 3000px;
     font-family: 'Arial';
     font-size: 128px;
     color: #FFFFFF;
@@ -515,288 +625,147 @@ header{
     width: 349px;
     height: 147px;
     left: 680px;
-    top: 2350px;
+    top: 3250px;
     font-family: 'Arial';
     font-size: 25px;
     color: #FFFFFF;
 }
 
-#fourth>section:nth-child(3)>div:nth-child(1){
+.project1 {
     position: absolute;
-    width: 272px;
-    height: 214px;
-    left: 320px;
-    top: 2520px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    z-index: 7;
+    top: 3360px;
+    box-shadow: 10px 13px 8px -5px black;
     background-color: white;
-    opacity: 0.8;
-    border-radius: unset;
-}
-#fourth>section:nth-child(3)>div:nth-child(1)>figure{
-    position: absolute;
-    width: 260px;
-    height: 210px;
-    left: -15px;
-    top: 20px;
-    z-index: 8;
-}
-#fourth>section:nth-child(3)>div:nth-child(1)>figure>figcaption{
-    position: absolute;
-    width: 300px;
-    height: 31.58px;
-    left: -30px;
-    top: -30px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    color: #1C2AAF;
-    z-index: 8;
+    width: 350px;
+    height: 350px;
+    left: 100px;
+    border-radius: 25px;
 }
 
-#fourth>section:nth-child(3)>div:nth-child(2){
+.project2{
     position: absolute;
-    width: 204px;
-    height: 154px;
-    left: 170px;
-    top: 2550px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    z-index: 4;
+    top: 3360px;
+    box-shadow: 10px 13px 8px -5px black;
     background-color: white;
-    border-radius: unset;
-    opacity: 0.8;
-}
-#fourth>section:nth-child(3)>div:nth-child(2)>figure{
-    position: absolute;
-    width: 260px;
-    height: 210px;
-    left: -17px;
-    top: 8px;
-    z-index: 7;
-}
-#fourth>section:nth-child(3)>div:nth-child(2)>figure>figcaption{
-    position: absolute;
-    width: 285px;
-    height: 31.58px;
-    left: -60px;
-    top: -25px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 23px;
-    text-align: center;
-    color: #1C2AAF;
-    z-index: 7;
+    width: 350px;
+    height: 350px;
+    left: 550px;
+    border-radius: 25px;
 }
 
-#fourth>section:nth-child(3)>div:nth-child(3){
+.project3{
     position: absolute;
-    width: 330px;
-    height: 250px;
-    right: 600px;
-    top: 2500px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-    z-index: 10;
+    top: 3360px;
+    box-shadow: 10px 13px 8px -5px black;
     background-color: white;
-    opacity: 0.8;
-    border-radius: unset;
+    width: 350px;
+    height: 350px;
+    left: 1000px;
+    border-radius: 25px;
 }
-#fourth>section:nth-child(3)>div:nth-child(3)>figure{
-    position: absolute;
-    width: 260px;
-    height: 210px;
-    right: -4px;
-    top: 20px;
-    z-index: 8;
-}
-#fourth>section:nth-child(3)>div:nth-child(3)>figure>figcaption{
-    position: absolute;
-    width: 300px;
-    height: 31.58px;
-    right: -20px;
-    top: -30px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
+
+.project-tittle{
+    font-family: Arial;
+    font-size: 20px;
     text-align: center;
-    color: #1C2AAF;
-    z-index: 8;
 }
 
-#fourth>section:nth-child(3)>div:nth-child(4){
-    position: absolute;
-    width: 272px;
-    height: 214px;
-    right: 330px;
-    top: 2520px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    z-index: 7;
-    background-color: white;
-    opacity: 0.8;
-    border-radius: unset;
-    border: unset;
-}
-#fourth>section:nth-child(3)>div:nth-child(4)>figure{
-    position: absolute;
-    width: 260px;
-    height: 210px;
-    right: -50px;
-    top: 15px;
-    z-index: 8;
-}
-#fourth>section:nth-child(3)>div:nth-child(4)>figure>figcaption{
-    position: absolute;
-    width: 300px;
-    height: 31.58px;
-    right: -7px;
-    top: -28px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    text-align: center;
-    color: #1C2AAF;
-    z-index: 8;
+.project-img{
+    height: 200px;
+    width: 350px;
+    opacity: 90%;
 }
 
-#fourth>section:nth-child(3)>div:nth-child(5){
-    position: absolute;
-    width: 204px;
-    height: 154px;
-    right: 150px;
-    top: 2550px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    z-index: 6;
-    background-color: white;
-    opacity: 0.8;
-    border-radius: unset;
-}
-#fourth>section:nth-child(3)>div:nth-child(5)>figure{
-    position: absolute;
-    width: 260px;
-    height: 210px;
-    right: -117px;
-    top: 8px;
-    z-index: 7;
-}
-#fourth>section:nth-child(3)>div:nth-child(5)>figure>figcaption{
-    position: absolute;
-    width: 300px;
-    height: 31.58px;
-    right: 32px;
-    top: -25px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    color: #1C2AAF;
-    z-index: 7;
-}
-
-/*#fourth>div:nth-child(4){*/
-/*    position: absolute;*/
-/*    width: 15px;*/
-/*    height: 15px;*/
-/*    left: 655px;*/
-/*    top: 2785px;*/
-/*    background: rgba(255, 255, 255, 0.5);*/
-/*    border-radius: 100%;*/
-/*}*/
-/*#fourth>div:nth-child(5){*/
-/*    position: absolute;*/
-/*    width: 20px;*/
-/*    height: 20px;*/
-/*    left: 695px;*/
-/*    top: 2782px;*/
-/*    background: rgba(255, 255, 255, 0.75);*/
-/*    border-radius: 100%;*/
-/*}*/
-/*#fourth>div:nth-child(6){*/
-/*    position: absolute;*/
-/*    width: 25px;*/
-/*    height: 25px;*/
-/*    left: 742px;*/
-/*    top: 2779px;*/
-/*    background: #FFFFFF;*/
-/*    border-radius: 100%;*/
-/*}*/
-/*#fourth>div:nth-child(7){*/
-/*    position: absolute;*/
-/*    width: 20px;*/
-/*    height: 20px;*/
-/*    left: 790px;*/
-/*    top: 2782px;*/
-/*    background: rgba(255, 255, 255, 0.75);*/
-/*    border-radius: 100%;*/
-/*}*/
-/*#fourth>div:nth-child(8){*/
-/*    position: absolute;*/
-/*    width: 15px;*/
-/*    height: 15px;*/
-/*    left: 835px;*/
-/*    top: 2785px;*/
-/*    background: rgba(255, 255, 255, 0.5);*/
-/*    border-radius: 100%;*/
-/*}*/
-
-/*.arrow{*/
-/*    position: absolute;*/
-/*    width: 40px;*/
-/*    height: 4px;*/
-/*    left: 880px;*/
-/*    top: 2790px;*/
-/*    background: rgba(255, 255, 255, 0.75);*/
-/*}*/
-/*.arrow::after, .arrow::before{*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    width: 20px;*/
-/*    height: 4px;*/
-/*    right: -3px;*/
-/*    background: rgba(255, 255, 255, 0.75);*/
-/*    z-index: 1;*/
-/*}*/
-/*.arrow::after{*/
-/*    top: -10px;*/
-/*    transform: rotate(55deg);*/
-/*}*/
-/*.arrow::before{*/
-/*    top: 10px;*/
-/*    transform: rotate(-55deg);*/
-/*}*/
-
-/*Fifth Page*/
-
-.contactRec{
+.project-p{
+    font-family: Arial;
     position: relative;
-    width: 98.90vw;
-    height: 430px;
-    left: 0px;
-    top: 1710px;
-    z-index: 1;
-    fill: black;
+    text-align: center;
+    padding-top: 64px;
+    border: 5px solid #1C2AAF;
+    height: 195px;
 
 
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+    top: -222px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #d5c7c7;
+    line-height: 1.3;
+    background: #000000c2;
+    opacity: 0;
+}
+
+.project-p:hover {
+    opacity: 100%;
+    height: 218px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.project-button{
+    position: absolute;
+    width: max-content;
+    height: 30px;
+
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    border: 3px solid #1C2AAF;
+}
+.project-button:hover {
+    background-color: #1C2AAF;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px 3px white;
+    border: 3px solid #1C2AAF;
+}
+
+.more_button {
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    left: 680px;
+    margin-top: 740px;
+    background-color: white;
+    color: #1C2AAF;
+    box-shadow: 0px 1px 8px 3px black;
+}
+
+
+
+
+
+/*!*Fifth Page*!*/
+
+
+/*contact us page*/
+.six_page{
+    height: 65vh;
+    width: auto;
+    border: 10px solid black;
+    background: black;
 }
 
 #get{
-    position: absolute;
+    position: relative;
     width: 287px;
     height: 46px;
     left: 41%;
-    top: 3070px;
+    top: 20px;
     font-family: 'Arial';
     color: white;
-    z-index: 1;
+    z-index: 3;
     font-size: 23px;
     margin-bottom: 15px;
 }
@@ -806,7 +775,7 @@ header{
     width: 600px;
     height: 46px;
     left: 30%;
-    top: 1320px;
+    top: 10px;
     font-family: 'Arial';
     color: white;
     z-index: 1;
@@ -819,7 +788,7 @@ header{
     width: 972px;
     height: 29px;
     left: 19%;
-    top: 3180px;
+    top: 4010px;
     font-family: 'Arial';
     font-size: 18px;
     color: white;
@@ -831,7 +800,7 @@ header{
     width: 972px;
     height: 29px;
     left: 19%;
-    top: 3210px;
+    top: 4040px;
     font-family: 'Arial';
     font-size: 18px;
     color: white;
@@ -841,7 +810,7 @@ header{
 .smallpic{
     position: absolute;
     left: 42%;
-    top: 3280px;
+    top: 4100px;
     z-index: 2;
     height: 35px;
 }
@@ -851,20 +820,20 @@ header{
     width: 255px;
     height: 29px;
     left: 43%;
-    top: 3270px;
+    top: 4100px;
     font-size: 14px;
     font-family: 'Arial';
     color: white;
     z-index: 1;
 }
 
-/*contact us page*/
+
 
 .mail{
     position: absolute;
     width: 220px;
     height: 50px;
-    top: 3350px;
+    top: 4180px;
     margin-left: -300px;
 
     font-family: Arial;
@@ -879,7 +848,7 @@ header{
     position: absolute;
     width: 220px;
     height: 50px;
-    top: 3350px;
+    top: 4180px;
     margin-left: 50px;
 
     font-family: Arial;
@@ -897,22 +866,52 @@ header{
     color: white;
 }
 
-body>footer>section>section:nth-child(2)>hr{
-    position: absolute;
-    width: 98.6vw;
-    height: 0px;
-    left: 0px;
-    top: 3430px;
-    border: 1px solid #FFFFFF;
-    z-index: 1;
+.footer_social{
+    position: relative;
+    bottom: -200px;
+
+    margin-left: 360px;
 }
+
+.facebookf{
+    width: 27px;
+    height: 27px;
+    padding-right: 10px;
+}
+
+.instagramf{
+    width: 27px;
+    height: 27px;
+    padding-right: 10px;
+}
+
+.linkedinf{
+    width: 27px;
+    height: 27px;
+    padding-right: 10px;
+}
+
+.githubf{
+    width: 27px;
+    height: 27px;
+    padding-right: 10px;
+}
+
+.twitterf{
+    width: 27px;
+    height: 27px;
+    padding-right: 10px;
+}
+
+
+
 
 body>footer>section>section:nth-child(2)>p{
     position: absolute;
     width: 260px;
     height: 14px;
     right: 630px;
-    top: 3460px;
+    top: 4280px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -921,6 +920,10 @@ body>footer>section>section:nth-child(2)>p{
     color: #FFFFFF;
     z-index: 1;
 }
+
+
+
+
 
 
 

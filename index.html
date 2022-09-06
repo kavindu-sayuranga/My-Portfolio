@@ -62,11 +62,12 @@
     <nav>
         <div class="row">
             <ul class="main-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#first">Home</a></li>
+                <li><a href="#second">About me</a></li>
+                <li><a href="#third">Services</a></li>
+                <li><a href="#fourth">Skills</a></li>
+                <li><a href="#mypro">Portfolio</a></li>
+                <li><a href="#six">Contact me</a></li>
             </ul>
         </div>
     </nav>
@@ -74,7 +75,7 @@
 
 <main>
     <!--first page-->
-    <section>
+    <section class="first_page" id="first">
         <section>
 
 
@@ -117,7 +118,7 @@
     </section>
 
     <!--second page-->
-    <section>
+    <section class="second_page" id="second">
         <h1 id="about">about</h1>
 
 
@@ -140,7 +141,43 @@
 
     <!--third page-->
 
-    <section>
+    <section class="third_page" id="third">
+
+        <h1 id="services">services</h1>
+
+        <section class="s1" >
+            <div>
+                <img class="service-img" src="assets/images/software_dev.png" alt="software development">
+                <p class="service-p1"><b>Software Development</b></p>
+                <p class="service-p2">All standalone software
+                    development with
+                    Java, JavaFx,MySQL,
+                    SpringBoot and Hibernate</p>
+            </div>
+        </section>
+
+        <section class="s2">
+            <div>
+                <img class="service-img" src="assets/images/web.png" alt="web development">
+                <p class="service-p1"><b>Web Development</b></p>
+                <p class="service-p2">Blogs,E-commerce websites
+                    development with
+                    JavaScript,CSS and HTML</p>
+            </div>
+        </section>
+
+        <section class="s3">
+            <div>
+                <img class="service-img" src="assets/images/ui.png" alt="ux/ui design">
+                <p class="service-p1"><b>UX/UI Design</b></p>
+                <p class="service-p2">Mobile apps,Web sites design</p>
+            </div>
+        </section>
+    </section>
+
+
+    <!--fourth page-->
+    <section class="fourth_page" id="fourth">
 
         <!--        <h1 id="skills"> skills</h1>-->
 
@@ -211,80 +248,75 @@
 
     </section>
 
-    <!--fourth page-->
-    <section id="fourth">
+<!--    fifth page-->
+    <section class="fifth_page" id="fifth">
         <h1 id="project">portfolio</h1>
         <h3 id="mypro">MY PROJECTS</h3>
 
-        <section>
-            <div>
-                <figure class="project1">
-                    <figcaption>Student Management System</figcaption>
-                    <img alt="student" height="150" src="assets/images/student.png" width="230">
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <figcaption>Hostel Management System</figcaption>
-                    <img alt="Hostel" height="110" src="assets/images/hostel.png" width="160">
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <figcaption>Burger Hut System</figcaption>
-                    <img alt="ayur Ceylon" height="180" src="assets/images/burger_hut.png" width="260">
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <figcaption>Super Market System</figcaption>
-                    <img alt="super Market" height="150" src="assets/images/super-market.png" width="230">
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <figcaption>Car Parking System</figcaption>
-                    <img alt="Car Parking" height="110" src="assets/images/car-parking.png" width="160">
-                </figure>
+
+        <section >
+            <div class="project1">
+                <h3 class="project-tittle">burgerhut Management System</h3>
+                <img class="project-img" src="assets/images/student.png" alt="software">
+                <p class="project-p">This is restaurant management system implement for Burger Hut Shop manage
+                    all stock details & orders.JavaFx,java and mysql used
+                    for implement this system
+                    <button class="project-button"><a
+                            href="https://github.com/kavindu-sayuranga/BurgerHut-POS.git" target="_blank">View
+                        Project</a></button>
+                </p>
             </div>
         </section>
-<!--        <div></div>-->
-<!--        <div></div>-->
-<!--        <div></div>-->
-<!--        <div></div>-->
-<!--        <div></div>-->
-<!--        <section>-->
-<!--            <div class="arrow"></div>-->
-<!--        </section>-->
 
-        <br>
+        <section>
+            <div class="project2">
+                <h3 class="project-tittle">burgerhut Management System</h3>
+                <img class="project-img" src="assets/images/burger_hut.png" alt="software">
+                <p class="project-p">This is pos system for manage inventory,place order and make payment bill for
+                    customers
+                    <button class="project-button"><a href="https://github.com/ChamodhPasindu/POS-Layerd"
+                                                      target="_blank">View Project</a></button>
+                </p>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="project3">
+                <h3 class="project-tittle">Hotel Management System</h3>
+                <img class="project-img" src="assets/images/super-market.png" alt="software">
+                <p class="project-p">This system use for manage all hotel activities like room reservation,guest check
+                    in and
+                    out,calculate income reports and etc
+                    <button class="project-button"><a href="https://github.com/ChamodhPasindu/Hotel-Management-System"
+                                                      target="_blank">
+                        View Project</a></button>
+                </p>
+
+            </div>
+        </section>
+
+        <button class="more_button"><a href="pages/projects.html" target="_blank">View More</a></button>
+
     </section>
 
-    <!--        fifth page-->
-    <section>
-        <div>
-            <svg class="contactRec" height="430" width="1522">
-                <rect height="430" width="1522"></rect>
-            </svg>
-        </div>
-        <article id="contact">
-            <p align="center" id="get"><b>GET IN TOUCH</b></p>
-            <p align="center" id="let"><b>LET'S WORK TOGETHER</b></p>
-            <p align="center" class="first">Have a project idea where you need some help? send me over message, and
-                let’s chat.</p>
-            <p align="center" class="second">Whether you have a question or just want to say Hi! I’ll try my best get
-                back to you!</p>
-            <br>
-            <p align="center"><img src="assets/images/Group%207.png" alt="myProfile" class="smallpic"></p>
-            <h4 align="center" id="reply">Reply Within 1-2 days</h4>
-        </article>
 
-    </section>
 </main>
-<footer>
-    <section>
+<footer class="six_page">
+    <section  id="six">
         <!--for contact me-->
         <section>
+            <article id="contact">
+                <p align="center" id="get"><b>GET IN TOUCH</b></p>
+                <p align="center" id="let"><b>LET'S WORK TOGETHER</b></p>
+                <p align="center" class="first">Have a project idea where you need some help? send me over message, and
+                    let’s chat.</p>
+                <p align="center" class="second">Whether you have a question or just want to say Hi! I’ll try my best get
+                    back to you!</p>
+                <br>
+                <p align="center"><img src="assets/images/Group%207.png" alt="myProfile" class="smallpic"></p>
+                <h4 align="center" id="reply">Reply Within 1-2 days</h4>
+            </article>
             <address>
                 <pre align="center"><button class="mail"><a href="mailto:ksayuranga00@gmail.com"><div id="email">ksayuranga00@gmail.com</div></a></button></pre>
 
@@ -292,18 +324,18 @@
                                                                target="_blank"><div
                         id="number">+94 77 371 8464</div></a></button></pre>
 
-<!--                                <pre class="footer_social">-->
-<!--                                <a href="https://www.facebook.com/kavindu.sayuranga.00" target="_blank"><img-->
-<!--                                        src="assets/images/Rectangle%201.png" alt="facebookf" class="facebookf"></a><a-->
-<!--                                    href="https://www.instagram.com/kavindu_sayuranga/" target="_blank"><img-->
-<!--                                    src="assets/images/Rectangle%202.png" alt="instagramf" class="instagramf"></a><a-->
-<!--                                    href="https://www.linkedin.com/in/kavindu-sayuranga/" target="_blank"><img-->
-<!--                                    src="assets/images/Rectangle%203.png" alt="linkedInf" class="linkedinf"></a><a-->
-<!--                                    href="https://github.com/kavindu-sayuranga" target="_blank"><img-->
-<!--                                    src="assets/images/Rectangle%204.png" alt="git hubf" class="githubf"></a><a-->
-<!--                                    href="https://twitter.com/KavinduSayuran2" target="_blank"><img-->
-<!--                                    src="assets/images/Rectangle%205.png" alt="twitterf" class="twitterf"></a>-->
-<!--                                </pre>-->
+                                <pre class="footer_social">
+                                <a href="https://www.facebook.com/kavindu.sayuranga.00" target="_blank"><img
+                                        src="assets/images/Rectangle%201.png" alt="facebookf" class="facebookf"></a><a
+                                    href="https://www.instagram.com/kavindu_sayuranga/" target="_blank"><img
+                                    src="assets/images/Rectangle%202.png" alt="instagramf" class="instagramf"></a><a
+                                    href="https://www.linkedin.com/in/kavindu-sayuranga/" target="_blank"><img
+                                    src="assets/images/Rectangle%203.png" alt="linkedInf" class="linkedinf"></a><a
+                                    href="https://github.com/kavindu-sayuranga" target="_blank"><img
+                                    src="assets/images/Rectangle%204.png" alt="git hubf" class="githubf"></a><a
+                                    href="https://twitter.com/KavinduSayuran2" target="_blank"><img
+                                    src="assets/images/Rectangle%205.png" alt="twitterf" class="twitterf"></a>
+                                </pre>
             </address>
         </section>
         <!--line and all reserved-->
