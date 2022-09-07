@@ -192,7 +192,7 @@
         }
     }
     .hero-image{
-
+        position: relative;
         height: 150px;
         width: 130px;
         margin-top: 8%;
@@ -267,6 +267,7 @@
     }
     .hero-image{
 
+        position: relative;
         height: 150px;
         width: 130px;
         margin-top: 6.8%;
