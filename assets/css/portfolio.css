@@ -1,0 +1,162 @@
+/*!*fifth page*!*/
+
+.fifth_page{
+    height: 110vh;
+    width: auto;
+    border: 10px solid #1C2AAF;
+}
+/*#1C2AAF*/
+#project{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 539px;
+    top: 3000px;
+    font-family: 'Arial';
+    font-size: 128px;
+    color: #FFFFFF;
+    opacity: 0.4;
+
+}
+
+#mypro{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 680px;
+    top: 3250px;
+    font-family: 'Arial';
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.project1 {
+    position: absolute;
+    top: 3360px;
+    box-shadow: 10px 13px 8px -5px black;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    left: 100px;
+    border-radius: 25px;
+}
+
+.project2{
+    position: absolute;
+    top: 3360px;
+    box-shadow: 10px 13px 8px -5px black;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    left: 550px;
+    border-radius: 25px;
+}
+
+.project3{
+    position: absolute;
+    top: 3360px;
+    box-shadow: 10px 13px 8px -5px black;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    left: 1000px;
+    border-radius: 25px;
+}
+
+.project-tittle{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: #1C2AAF;
+}
+
+.project-img{
+    height: 200px;
+    width: 350px;
+    opacity: 90%;
+}
+
+.project-p{
+    font-family: Arial;
+    position: relative;
+    text-align: center;
+    padding-top: 64px;
+    border: 5px solid #1C2AAF;
+    height: 195px;
+
+
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+    top: -222px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #d5c7c7;
+    line-height: 1.3;
+    background: #000000c2;
+    opacity: 0;
+}
+
+.project-p:hover {
+    opacity: 100%;
+    height: 218px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.project-button{
+    position: absolute;
+    width: max-content;
+    height: 30px;
+
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    border: 3px solid #1C2AAF;
+}
+.project-button:hover {
+    background-color: #1C2AAF;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px 3px white;
+    border: 3px solid #1C2AAF;
+}
+
+.more_button {
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    left: 680px;
+    margin-top: 740px;
+    background-color: #1C2AAF;
+    color: white;
+    border-color: white;
+
+    font-family: Arial;
+    border-radius: 20px;
+}
+
+#view{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.more_button:hover {
+    background-color: white;
+    color: #1C2AAF;
+    border: 3px solid #1C2AAF;
+}
+
+#view:hover{
+    color: #1C2AAF;
+}

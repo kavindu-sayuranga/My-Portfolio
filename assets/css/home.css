@@ -1,0 +1,151 @@
+/* Main page*/
+.main{
+    position: absolute;
+    width: 52vw;
+    height: 50vh;
+    background: #3C39EB;
+    left: 25%;
+    top: 30%;
+    border-radius: 120px;
+    background-position: inherit;
+
+}
+
+.main-head{
+    position: absolute;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+    margin-top: -31%;
+    margin-left: 50%;
+    background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: inherit;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
+
+
+}
+
+@keyframes animate {
+    to{
+        background-position: 200% center;
+    }
+}
+.hero-image{
+
+    height: 51.9vh;
+    width: 25.5vw;
+    margin-top: -1.5%;
+    margin-left: -0.3%;
+    border-bottom-left-radius: 33%;
+
+}
+.circle{
+    height: 85vh;
+    width: 40vw;
+    margin-top: 100px;
+
+}
+
+
+.start{
+
+    position: absolute;
+    width: 10vw;
+    height: 7vh;
+    left: 55%;
+    top:75%;
+    color: #3C39EB;
+    /*color: white;*/
+    font-family: Arial;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    font-weight: bold;
+
+    /*background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);*/
+    /*background-size: 200% auto;*/
+    /*color: #000;*/
+    /*background-clip: inherit;*/
+    /*text-fill-color: transparent;*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    /*animation: animate 2s linear infinite;*/
+
+}
+
+/*Social media links*/
+
+
+#follow{
+
+    position: fixed;
+    left: 1374px;
+    top: 260px;
+    transform: rotate(270deg);
+    color: #FFFFFF;
+    font-family:"Arial";
+    font-size: 13px;
+    height: 150px;
+    width: 300px;
+    z-index: 3;
+
+}
+.verticalLine{
+    height: 55px;
+    border: 1px solid #FFFFFF;
+    position: fixed;
+    left: 1456px;
+    top: 370px;
+    color: white;
+    z-index: 3;
+}
+
+.facebook{
+    position: fixed;
+    width: 27px;
+    height: 27px;
+    left: 1440px;
+    top: 150px;
+    z-index: 3;
+}
+
+.instagram{
+    position: fixed;
+    width: 27px;
+    height: 27px;
+    left: 1440px;
+    top: 190px;
+    z-index: 3;
+}
+
+.linkedin{
+    position: fixed;
+    width: 27px;
+    height: 27px;
+    left: 1440px;
+    top: 230px;
+    z-index: 3;
+}
+
+.github{
+    position: fixed;
+    width: 27px;
+    height: 27px;
+    left: 1440px;
+    top: 270px;
+    z-index: 3;
+}
+
+.twitter{
+    position: fixed;
+    width: 27px;
+    height: 27px;
+    left: 1440px;
+    top: 310px;
+    z-index: 3;
+}

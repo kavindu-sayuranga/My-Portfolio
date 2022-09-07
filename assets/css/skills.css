@@ -1,0 +1,220 @@
+/*!*fourth page*!*/
+
+.fourth_page{
+    height: 100vh;
+    width: auto;
+    border: 10px solid #1C2AAF;
+}
+/*#1C2AAF*/
+#chart{
+    position: absolute;
+    top: 2400px;
+    height: 80vh;
+    width: 66vw;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 250px;
+
+}
+#skills{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 539px;
+    top: 1350px;
+    font-family: 'Arial';
+    font-size: 128px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+
+
+
+
+#skill{
+    font-family: Arial;
+    color: black;
+    margin-left: 75px;
+    font-size: 20px;
+
+}
+
+#expert{
+    font-family: Arial;
+    color: #3C39EB;
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+.allskill{
+    list-style: none;
+    color: black;
+    font-family: Arial;
+    margin-left: 100px;
+    text-decoration: none;
+
+
+}
+
+.designset{
+    font-family: Arial;
+    color: black;
+    font-size: 18px;
+}
+
+.design{
+
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+
+.designlist{
+    list-style-type: none;
+    margin-left: -40px;
+
+}
+
+.webset{
+    margin-left: 300px;
+    margin-top: -305px;
+    font-size: 18px;
+
+}
+
+.web{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.weblist{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.softwareset{
+    margin-left: 600px;
+    margin-top: -223px;
+    font-size: 18px;
+
+
+}
+
+.software{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+
+.softwarelist{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.java{
+    margin-left: 120px;
+    margin-top: 100px;
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+}
+
+.js{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.html{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.css{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.mysql{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.hibernate{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.javafx{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.intelij{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.eclipes{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+.figma{
+    height: 50px;
+    width: auto;
+    padding-right: 120px;
+
+}
+
+.vscode{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+    margin-left: 120px;
+
+
+}
+
+.githubl{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+
+
+}
+
+.slack{
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+
+
+}

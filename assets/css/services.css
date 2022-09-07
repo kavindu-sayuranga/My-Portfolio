@@ -1,0 +1,80 @@
+/*third page*/
+
+.third_page{
+    height: 120vh;
+    width: auto;
+    border: 10px solid #1C2AAF;
+}
+/*#1C2AAF*/
+#services{
+    position: absolute;
+    width: 349px;
+    height: 147px;
+    left: 519px;
+    top: 1380px;
+    font-family: 'Arial';
+    font-size: 128px;
+    color: #FFFFFF;
+    opacity: 0.4;
+
+}
+.s1{
+    width: 25vw;
+    height: 61vh;
+
+    background-color: white;
+
+    position: absolute;
+
+    left: 80px;
+    top: 1680px;
+    border-radius: 120px;
+    background-position: inherit;
+}
+
+.s2{
+    width: 25vw;
+    height: 61vh;
+
+    background-color: white;
+
+    position: absolute;
+
+    left: 540px;
+    top: 1680px;
+    border-radius: 100px;
+    background-position: inherit;
+}
+
+.s3{
+    width: 25vw;
+    height: 61vh;
+
+    background-color: white;
+
+    position: absolute;
+
+    left: 1000px;
+    top: 1680px;
+    border-radius: 100px;
+    background-position: inherit;
+}
+
+.service-img{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+}
+
+.service-p1{
+    font-size: 20px;
+    font-family: Arial;
+    /*margin-left: 80px;*/
+    text-align: center;
+}
+
+.service-p2{
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+}
