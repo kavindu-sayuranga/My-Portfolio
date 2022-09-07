@@ -169,7 +169,7 @@
     .main-head{
         position: absolute;
         font-family: Arial;
-        font-size: 8px;
+        font-size: 50%;
         text-transform: uppercase;
         color: white;
         margin-top: -57%;
@@ -243,7 +243,7 @@
     .main-head{
         position: absolute;
         font-family: Arial;
-        font-size: 8px;
+        font-size: 50%;
         text-transform: uppercase;
         color: white;
         margin-top: -45%;
@@ -271,6 +271,82 @@
         height: 150px;
         width: 130px;
         margin-top: 6.8%;
+        margin-left: 1%;
+        border-bottom-left-radius: 60px;
+
+    }
+    .circle{
+        height: 40vh;
+        width: 45vw;
+        margin-top: 110px;
+        margin-left: -5px;
+
+    }
+
+
+    .start{
+
+        position: absolute;
+        width: 70px;
+        height: 30px;
+        left: 55%;
+        top:75%;
+        color: #3C39EB;
+        font-size: 7px;
+        font-family: Arial;
+        border-radius: 10px;
+        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+        font-weight: bold;
+
+
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 426px){
+    .main{
+        position: absolute;
+        width: 82vw;
+        height: 27vh;
+        background: #3C39EB;
+        left: 15%;
+        margin-top: -40px;
+        border-radius: 70px;
+        background-position: inherit;
+
+    }
+
+    .main-head{
+        position: absolute;
+        font-family: Arial;
+        font-size: 50%;
+        text-transform: uppercase;
+        color: white;
+        margin-top: -38%;
+        margin-left: 42%;
+        background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: inherit;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animate 2s linear infinite;
+
+
+    }
+
+    @keyframes animate {
+        to{
+            background-position: 200% center;
+        }
+    }
+    .hero-image{
+
+        position: relative;
+        height: 150px;
+        width: 130px;
+        margin-top: 6%;
         margin-left: 1%;
         border-bottom-left-radius: 60px;
 
