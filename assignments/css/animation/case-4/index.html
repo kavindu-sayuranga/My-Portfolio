@@ -10,6 +10,33 @@
       background: url("assets/images/sky.jpg");
       overflow: hidden;
     }
+
+    main > div:nth-child(1) {
+      display: flex;
+      position: absolute;
+      bottom: 13vw;
+      animation-name: city;
+      animation-duration: 10s;
+    }
+    main > div:nth-child(1) > img {
+      height: 40vh;
+    }
+    @keyframes city {
+      from {
+        left: 0;
+      }
+      to {
+        left: -200%;
+      }
+    }
+
+    main > div:nth-child(2) {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      animation-name: road;
+      animation-duration: 10s;
+    }
   </style>
 </head>
 <body>
