@@ -8,8 +8,6 @@
 /*#1C2AAF*/
 #services{
     position: absolute;
-    width: 349px;
-    height: 147px;
     left: 519px;
     top: 1380px;
     font-family: 'Arial';
@@ -78,3 +76,369 @@
     font-size: 17px;
     text-align: center;
 }
+
+
+/*@media all and (max-width: 320px){*/
+/*    .third_page{*/
+/*        border: 10px solid #1C2AAF;*/
+/*    }*/
+/*    #services{*/
+/*        position: absolute;*/
+/*        left: 65px;*/
+/*        top: 1280px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 50px;*/
+/*        color: #FFFFFF;*/
+/*        opacity: 0.4;*/
+/*    }*/
+
+/*    .s1{*/
+/*        width: 85vw;*/
+/*        height: 61vh;*/
+/*        background-color: white;*/
+/*        position: absolute;*/
+/*        left: 25px;*/
+/*        top: 1450px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s2{*/
+/*        width: 85vw;*/
+/*        height: 61vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 25px;*/
+/*        top: 1900px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s3{*/
+/*        width: 85vw;*/
+/*        height: 61vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 25px;*/
+/*        top: 2350px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .service-img{*/
+/*        height: 170px;*/
+/*        width: 170px;*/
+/*        margin-left: 50px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .service-p1{*/
+/*        font-size: 18px;*/
+/*        font-family: Arial;*/
+/*        !*margin-left: 80px;*!*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .service-p2{*/
+/*        font-family: Arial;*/
+/*        font-size: 15px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 321px) and (max-width: 376px){*/
+/*    .third_page{*/
+/*        border: 10px solid #1C2AAF;*/
+/*    }*/
+/*    #services{*/
+/*        position: absolute;*/
+/*        left: 85px;*/
+/*        top: 1280px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 50px;*/
+/*        color: #FFFFFF;*/
+/*        opacity: 0.4;*/
+/*    }*/
+
+/*    .s1{*/
+/*        width: 70vw;*/
+/*        height: 61vh;*/
+/*        background-color: white;*/
+/*        position: absolute;*/
+/*        left: 45px;*/
+/*        top: 1450px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s2{*/
+/*        width: 70vw;*/
+/*        height: 61vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 45px;*/
+/*        top: 1900px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s3{*/
+/*        width: 70vw;*/
+/*        height: 61vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 45px;*/
+/*        top: 2350px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .service-img{*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*        margin-left: 55px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .service-p1{*/
+/*        font-size: 18px;*/
+/*        font-family: Arial;*/
+/*        !*margin-left: 80px;*!*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .service-p2{*/
+/*        font-family: Arial;*/
+/*        font-size: 15px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+
+/*@media all and (min-width: 376px) and (max-width: 426px){*/
+/*    .third_page{*/
+/*        border: 10px solid #1C2AAF;*/
+/*    }*/
+/*    #services{*/
+/*        position: absolute;*/
+/*        left: 110px;*/
+/*        top: 1280px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 50px;*/
+/*        color: #FFFFFF;*/
+/*        opacity: 0.4;*/
+/*    }*/
+
+/*    .s1{*/
+/*        width: 70vw;*/
+/*        height: 61vh;*/
+/*        background-color: white;*/
+/*        position: absolute;*/
+/*        left: 60px;*/
+/*        top: 1450px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s2{*/
+/*        width: 70vw;*/
+/*        height: 61vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 60px;*/
+/*        top: 1900px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s3{*/
+/*        width: 70vw;*/
+/*        height: 61vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 60px;*/
+/*        top: 2350px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .service-img{*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*        margin-left: 70px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .service-p1{*/
+/*        font-size: 18px;*/
+/*        font-family: Arial;*/
+/*        !*margin-left: 80px;*!*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .service-p2{*/
+/*        font-family: Arial;*/
+/*        font-size: 15px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 427px) and (max-width: 769px){*/
+/*    #services{*/
+/*        position: absolute;*/
+/*        left: 200px;*/
+/*        top: 1200px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 100px;*/
+/*        color: #FFFFFF;*/
+/*        opacity: 0.4;*/
+/*    }*/
+
+/*    .s1{*/
+/*        width: 30vw;*/
+/*        height: 55vh;*/
+/*        background-color: white;*/
+/*        position: absolute;*/
+/*        left: 80px;*/
+/*        top: 1450px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s2{*/
+/*        width: 30vw;*/
+/*        height: 55vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 410px;*/
+/*        top: 1450px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s3{*/
+/*        width: 30vw;*/
+/*        height: 55vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 250px;*/
+/*        top: 1850px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .service-img{*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*        margin-left: 40px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .service-p1{*/
+/*        font-size: 16px;*/
+/*        font-family: Arial;*/
+/*        !*margin-left: 80px;*!*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .service-p2{*/
+/*        font-family: Arial;*/
+/*        font-size: 13px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 770px) and (max-width: 1025px){*/
+/*    #services{*/
+/*        position: absolute;*/
+/*        left: 350px;*/
+/*        top: 1450px;*/
+/*        font-family: 'Arial';*/
+/*        font-size: 100px;*/
+/*        color: #FFFFFF;*/
+/*        opacity: 0.4;*/
+/*    }*/
+
+/*    .s1{*/
+/*        width: 26vw;*/
+/*        height: 45vh;*/
+/*        background-color: white;*/
+/*        position: absolute;*/
+/*        left: 50px;*/
+/*        top: 1750px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s2{*/
+/*        width: 26vw;*/
+/*        height: 45vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 360px;*/
+/*        top: 1750px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .s3{*/
+/*        width: 26vw;*/
+/*        height: 45vh;*/
+
+/*        background-color: white;*/
+
+/*        position: absolute;*/
+
+/*        left: 680px;*/
+/*        top: 1750px;*/
+/*        border-radius: 80px;*/
+/*        background-position: inherit;*/
+/*    }*/
+
+/*    .service-img{*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*        margin-left: 40px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .service-p1{*/
+/*        font-size: 18px;*/
+/*        font-family: Arial;*/
+/*        !*margin-left: 80px;*!*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .service-p2{*/
+/*        font-family: Arial;*/
+/*        font-size: 15px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/

@@ -18,8 +18,7 @@
 }
 #skills{
     position: absolute;
-    width: 349px;
-    height: 147px;
+
     left: 539px;
     top: 1350px;
     font-family: 'Arial';
@@ -218,3 +217,927 @@
 
 
 }
+
+
+/*@media all and (max-width: 320px){*/
+/*    #chart{*/
+/*        position: absolute;*/
+/*        top: 2800px;*/
+/*        height: 135vh;*/
+/*        width: 80vw;*/
+/*        background-color: white;*/
+/*        border-radius: 50px;*/
+/*        margin-left: 25px;*/
+
+/*    }*/
+
+
+
+
+/*    #skill{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        margin-left: 45px;*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    #expert{*/
+/*        font-family: Arial;*/
+/*        color: #3C39EB;*/
+/*        margin-left: 45px;*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .allskill{*/
+/*        list-style: none;*/
+/*        color: black;*/
+/*        font-family: Arial;*/
+/*        margin-left: 55px;*/
+/*        text-decoration: none;*/
+/*    }*/
+
+/*    .designset{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .design{*/
+
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .designlist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .webset{*/
+/*        margin-left: 0px;*/
+/*        margin-top: -10px;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .web{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        display: inline-block;*/
+/*        font-weight: bold;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .weblist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .softwareset{*/
+/*        margin-left: 0px;*/
+/*        margin-top: 0px;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .software{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .softwarelist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .java{*/
+/*        margin-left: 30px;*/
+/*        margin-top: -10px;*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .js{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .html{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .css{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .mysql{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .hibernate{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .javafx{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        !*margin-left: 30px;*!*/
+/*    }*/
+
+/*    .intelij{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        margin-left: 30px;*/
+/*    }*/
+
+/*    .eclipes{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .figma{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .vscode{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        margin-left: 0px;*/
+/*    }*/
+
+/*    .githubl{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .slack{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+/*}*/
+
+
+/*@media all and (min-width: 321px) and (max-width: 376px){*/
+/*    #chart{*/
+/*        position: absolute;*/
+/*        top: 2800px;*/
+/*        height: 135vh;*/
+/*        width: 80vw;*/
+/*        background-color: white;*/
+/*        border-radius: 50px;*/
+/*        margin-left: 25px;*/
+
+/*    }*/
+
+
+
+
+/*    #skill{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        margin-left: 35px;*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    #expert{*/
+/*        font-family: Arial;*/
+/*        color: #3C39EB;*/
+/*        margin-left: 35px;*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .allskill{*/
+/*        list-style: none;*/
+/*        color: black;*/
+/*        font-family: Arial;*/
+/*        margin-left: 45px;*/
+/*        text-decoration: none;*/
+/*    }*/
+
+/*    .designset{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .design{*/
+
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .designlist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .webset{*/
+/*        margin-left: 0px;*/
+/*        margin-top: -10px;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .web{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        display: inline-block;*/
+/*        font-weight: bold;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .weblist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .softwareset{*/
+/*        margin-left: 0px;*/
+/*        margin-top: 0px;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .software{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .softwarelist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .java{*/
+/*        margin-left: 30px;*/
+/*        margin-top: -10px;*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .js{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .html{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .css{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .mysql{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .hibernate{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .javafx{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        !*margin-left: 30px;*!*/
+/*    }*/
+
+/*    .intelij{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .eclipes{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .figma{*/
+/*        margin-left: 30px;*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .vscode{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        margin-left: 0px;*/
+/*    }*/
+
+/*    .githubl{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .slack{*/
+/*        height: 25px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+/*}*/
+
+
+/*@media all and (min-width: 376px) and (max-width: 426px){*/
+/*    #chart{*/
+/*        position: absolute;*/
+/*        top: 2800px;*/
+/*        height: 143vh;*/
+/*        width: 82vw;*/
+/*        background-color: white;*/
+/*        border-radius: 50px;*/
+/*        margin-left: 25px;*/
+
+/*    }*/
+
+
+
+
+/*    #skill{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        margin-left: 35px;*/
+/*        font-size: 19px;*/
+/*    }*/
+
+/*    #expert{*/
+/*        font-family: Arial;*/
+/*        color: #3C39EB;*/
+/*        margin-left: 35px;*/
+/*        font-size: 29px;*/
+/*    }*/
+
+/*    .allskill{*/
+/*        list-style: none;*/
+/*        color: black;*/
+/*        font-family: Arial;*/
+/*        margin-left: 45px;*/
+/*        text-decoration: none;*/
+/*    }*/
+
+/*    .designset{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        font-size: 17px;*/
+/*    }*/
+
+/*    .design{*/
+
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .designlist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .webset{*/
+/*        margin-left: 0px;*/
+/*        margin-top: -10px;*/
+/*        font-size: 17px;*/
+/*    }*/
+
+/*    .web{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        display: inline-block;*/
+/*        font-weight: bold;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .weblist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .softwareset{*/
+/*        margin-left: 0px;*/
+/*        margin-top: 0px;*/
+/*        font-size: 17px;*/
+/*    }*/
+
+/*    .software{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .softwarelist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .java{*/
+/*        margin-left: 30px;*/
+/*        margin-top: -25px;*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .js{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .html{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .css{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .mysql{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .hibernate{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .javafx{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        !*margin-left: 30px;*!*/
+/*    }*/
+
+/*    .intelij{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .eclipes{*/
+/*        margin-left: 30px;*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .figma{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .vscode{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*        margin-left: 0px;*/
+/*    }*/
+
+/*    .githubl{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+
+/*    .slack{*/
+/*        height: 35px;*/
+/*        width: auto;*/
+/*        padding-right: 0px;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 427px) and (max-width: 769px){*/
+/*    #chart{*/
+/*        position: absolute;*/
+/*        top: 2400px;*/
+/*        height: 80vh;*/
+/*        width: 80vw;*/
+/*        background-color: white;*/
+/*        border-radius: 50px;*/
+/*        margin-left: 50px;*/
+
+/*    }*/
+
+
+/*    #skill{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        margin-left: 50px;*/
+/*        font-size: 16px;*/
+
+/*    }*/
+
+/*    #expert{*/
+/*        font-family: Arial;*/
+/*        color: #3C39EB;*/
+/*        margin-left: 50px;*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    .allskill{*/
+/*        list-style: none;*/
+/*        color: black;*/
+/*        font-family: Arial;*/
+/*        margin-left: 60px;*/
+/*        text-decoration: none;*/
+
+
+/*    }*/
+
+/*    .designset{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .design{*/
+
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .designlist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+
+/*    }*/
+
+/*    .webset{*/
+/*        margin-left: 200px;*/
+/*        margin-top: -255px;*/
+/*        font-size: 15px;*/
+
+/*    }*/
+
+/*    .web{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        display: inline-block;*/
+/*        font-weight: bold;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .weblist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .softwareset{*/
+/*        margin-left: 400px;*/
+/*        margin-top: -185px;*/
+/*        font-size: 15px;*/
+
+
+/*    }*/
+
+/*    .software{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .softwarelist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .java{*/
+/*        margin-left: 40px;*/
+/*        margin-top: 100px;*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .js{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .html{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .css{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .mysql{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .hibernate{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .javafx{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .intelij{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .eclipes{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*        margin-left: 42px;*/
+/*    }*/
+
+/*    .figma{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        !*padding-right: 20px;*!*/
+
+/*    }*/
+
+/*    .vscode{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*        margin-left: -100px;*/
+/*    }*/
+
+/*    .githubl{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .slack{*/
+/*        height: 45px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+/*}*/
+
+
+/*@media all and (min-width: 770px) and (max-width: 1025px){*/
+/*    #chart{*/
+/*        position: absolute;*/
+/*        top: 2400px;*/
+/*        height: 80vh;*/
+/*        width: 80vw;*/
+/*        background-color: white;*/
+/*        border-radius: 50px;*/
+/*        margin-left: 100px;*/
+
+/*    }*/
+
+
+/*    #skill{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        margin-left: 50px;*/
+/*        font-size: 25px;*/
+
+/*    }*/
+
+/*    #expert{*/
+/*        font-family: Arial;*/
+/*        color: #3C39EB;*/
+/*        margin-left: 50px;*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*    .allskill{*/
+/*        list-style: none;*/
+/*        color: black;*/
+/*        font-family: Arial;*/
+/*        margin-left: 60px;*/
+/*        text-decoration: none;*/
+
+
+/*    }*/
+
+/*    .designset{*/
+/*        font-family: Arial;*/
+/*        color: black;*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .design{*/
+
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .designlist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+
+/*    }*/
+
+/*    .webset{*/
+/*        margin-left: 270px;*/
+/*        margin-top: -340px;*/
+/*        font-size: 20px;*/
+
+/*    }*/
+
+/*    .web{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        display: inline-block;*/
+/*        font-weight: bold;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .weblist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .softwareset{*/
+/*        margin-left: 500px;*/
+/*        margin-top: -240px;*/
+/*        font-size: 20px;*/
+
+
+/*    }*/
+
+/*    .software{*/
+/*        color: black;*/
+/*        text-decoration: none;*/
+/*        text-transform: uppercase;*/
+/*        font-weight: bold;*/
+/*        display: inline-block;*/
+/*        border-bottom: 3px solid black;*/
+/*    }*/
+
+/*    .softwarelist{*/
+/*        list-style-type: none;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .java{*/
+/*        margin-left: 40px;*/
+/*        margin-top: 130px;*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .js{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .html{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .css{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .mysql{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .hibernate{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .javafx{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .intelij{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .eclipes{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+
+/*    }*/
+
+/*    .figma{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+
+/*    }*/
+
+/*    .vscode{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .githubl{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    .slack{*/
+/*        height: 50px;*/
+/*        width: auto;*/
+/*        padding-right: 20px;*/
+/*    }*/
+/*}*/
