@@ -5,6 +5,7 @@
     width: 98vw;
     border: 10px solid black;
     background: black;
+
 }
 
 #get{
@@ -171,178 +172,179 @@ body>footer>section>section:nth-child(2)>p{
 }
 
 
-/*@media all and (max-width: 320px){*/
-/*    #footer{*/
+@media all and (max-width: 320px){
+   .six_page{
 
-/*        height: 65vh;*/
-/*        width: 90vw;*/
-/*        !*border: 10px solid black;*!*/
-/*        background: black;*/
-/*        */
-
-/*    }*/
-
-/*    #get{*/
-/*        left: 5px;*/
-/*        top: 2200px;*/
-/*        font-family: 'Arial';*/
-/*        color: white;*/
-/*        z-index: 3;*/
-/*        font-size: 23px;*/
-/*        margin-bottom: 15px;*/
-/*    }*/
-
-/*    #let{*/
-/*        position: relative;*/
-/*        width: 600px;*/
-/*        height: 46px;*/
-/*        left: 30%;*/
-/*        top: 1000px;*/
-/*        font-family: 'Arial';*/
-/*        color: white;*/
-/*        z-index: 1;*/
-/*        font-size: 33px;*/
-
-/*    }*/
-
-/*    .first{*/
-/*        position: absolute;*/
-/*        width: 972px;*/
-/*        height: 29px;*/
-/*        left: 19%;*/
-/*        top: 4010px;*/
-/*        font-family: 'Arial';*/
-/*        font-size: 18px;*/
-/*        color: white;*/
-/*        z-index: 1;*/
-/*    }*/
-
-/*    .second{*/
-/*        position: absolute;*/
-/*        width: 972px;*/
-/*        height: 29px;*/
-/*        left: 19%;*/
-/*        top: 4040px;*/
-/*        font-family: 'Arial';*/
-/*        font-size: 18px;*/
-/*        color: white;*/
-/*        z-index: 1;*/
-/*    }*/
-
-/*    .smallpic{*/
-/*        position: absolute;*/
-/*        left: 42%;*/
-/*        top: 4100px;*/
-/*        z-index: 2;*/
-/*        height: 35px;*/
-/*    }*/
-
-/*    #reply{*/
-/*        position: absolute;*/
-/*        width: 255px;*/
-/*        height: 29px;*/
-/*        left: 43%;*/
-/*        top: 4100px;*/
-/*        font-size: 14px;*/
-/*        font-family: 'Arial';*/
-/*        color: white;*/
-/*        z-index: 1;*/
-/*    }*/
+        height: 65vh;
+        width: 90vw;
+        /*border: 10px solid black;*/
+        background: black;
+        position: relative;
 
 
+    }
 
-/*    .mail{*/
-/*        position: absolute;*/
-/*        width: 220px;*/
-/*        height: 50px;*/
-/*        top: 4180px;*/
-/*        margin-left: -300px;*/
+    #get{
+        left: 5px;
+        top: 2200px;
+        font-family: 'Arial';
+        color: white;
+        z-index: 3;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
 
-/*        font-family: Arial;*/
-/*        border-radius: 9px;*/
-/*        border-color: blue;*/
-/*        background-color: blue;*/
-/*        font-weight: bold;*/
-/*        z-index: 1;*/
-/*    }*/
+    #let{
+        position: relative;
+        width: 600px;
+        height: 46px;
+        left: 30%;
+        top: 1000px;
+        font-family: 'Arial';
+        color: white;
+        z-index: 1;
+        font-size: 33px;
 
-/*    .message{*/
-/*        position: absolute;*/
-/*        width: 220px;*/
-/*        height: 50px;*/
-/*        top: 4180px;*/
-/*        margin-left: 50px;*/
+    }
 
-/*        font-family: Arial;*/
-/*        border-radius: 9px;*/
-/*        border-color: limegreen;*/
-/*        background-color: limegreen;*/
-/*        font-weight: bold;*/
-/*        z-index: 1;*/
-/*    }*/
-/*    #email{*/
-/*        color: white;*/
-/*    }*/
+    .first{
+        position: absolute;
+        width: 972px;
+        height: 29px;
+        left: 19%;
+        top: 4010px;
+        font-family: 'Arial';
+        font-size: 18px;
+        color: white;
+        z-index: 1;
+    }
 
-/*    #number{*/
-/*        color: white;*/
-/*    }*/
+    .second{
+        position: absolute;
+        width: 972px;
+        height: 29px;
+        left: 19%;
+        top: 4040px;
+        font-family: 'Arial';
+        font-size: 18px;
+        color: white;
+        z-index: 1;
+    }
 
-/*    .footer_social{*/
-/*        position: relative;*/
-/*        bottom: -200px;*/
+    .smallpic{
+        position: absolute;
+        left: 42%;
+        top: 4100px;
+        z-index: 2;
+        height: 35px;
+    }
 
-/*        margin-left: 360px;*/
-/*    }*/
-
-/*    .facebookf{*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        padding-right: 10px;*/
-/*    }*/
-
-/*    .instagramf{*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        padding-right: 10px;*/
-/*    }*/
-
-/*    .linkedinf{*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        padding-right: 10px;*/
-/*    }*/
-
-/*    .githubf{*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        padding-right: 10px;*/
-/*    }*/
-
-/*    .twitterf{*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        padding-right: 10px;*/
-/*    }*/
+    #reply{
+        position: absolute;
+        width: 255px;
+        height: 29px;
+        left: 43%;
+        top: 4100px;
+        font-size: 14px;
+        font-family: 'Arial';
+        color: white;
+        z-index: 1;
+    }
 
 
 
+    .mail{
+        position: absolute;
+        width: 220px;
+        height: 50px;
+        top: 4180px;
+        margin-left: -300px;
 
-/*    body>footer>section>section:nth-child(2)>p{*/
-/*        position: absolute;*/
-/*        width: 260px;*/
-/*        height: 14px;*/
-/*        right: 630px;*/
-/*        top: 4280px;*/
-/*        font-family: 'Arial';*/
-/*        font-style: normal;*/
-/*        font-weight: 400;*/
-/*        !*font-size: 10px;*!*/
-/*        line-height: 14px;*/
-/*        color: #FFFFFF;*/
-/*        z-index: 1;*/
-/*    }*/
-/*}*/
+        font-family: Arial;
+        border-radius: 9px;
+        border-color: blue;
+        background-color: blue;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    .message{
+        position: absolute;
+        width: 220px;
+        height: 50px;
+        top: 4180px;
+        margin-left: 50px;
+
+        font-family: Arial;
+        border-radius: 9px;
+        border-color: limegreen;
+        background-color: limegreen;
+        font-weight: bold;
+        z-index: 1;
+    }
+    #email{
+        color: white;
+    }
+
+    #number{
+        color: white;
+    }
+
+    .footer_social{
+        position: relative;
+        bottom: -200px;
+
+        margin-left: 360px;
+    }
+
+    .facebookf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .instagramf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .linkedinf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .githubf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .twitterf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+
+
+
+    body>footer>section>section:nth-child(2)>p{
+        position: absolute;
+        width: 260px;
+        height: 14px;
+        right: 630px;
+        top: 4280px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        /*font-size: 10px;*/
+        line-height: 14px;
+        color: #FFFFFF;
+        z-index: 1;
+    }
+}
 
 
 /*@media all and (min-width: 770px) and (max-width: 1025px){*/

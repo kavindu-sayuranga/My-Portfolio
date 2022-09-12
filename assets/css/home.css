@@ -380,306 +380,306 @@
     }
 }
 
-/*@media all and (min-width: 427px) and (max-width: 769px){*/
-/*    .main{*/
-/*        position: absolute;*/
-/*        width: 65vw;*/
-/*        height: 40vh;*/
-/*        background: #3C39EB;*/
-/*        left: 20%;*/
-/*        margin-top: -20px;*/
-/*        border-radius: 70px;*/
-/*        background-position: inherit;*/
+@media all and (min-width: 427px) and (max-width: 769px){
+    .main{
+        position: absolute;
+        width: 65vw;
+        height: 40vh;
+        background: #3C39EB;
+        left: 20%;
+        margin-top: -20px;
+        border-radius: 70px;
+        background-position: inherit;
 
-/*    }*/
+    }
 
-/*    .main-head{*/
-/*        position: absolute;*/
-/*        font-family: Arial;*/
-/*        font-size: 70%;*/
-/*        text-transform: uppercase;*/
-/*        color: white;*/
-/*        margin-top: -38%;*/
-/*        margin-left: 50%;*/
-/*        background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);*/
-/*        background-size: 200% auto;*/
-/*        color: #000;*/
-/*        background-clip: inherit;*/
-/*        text-fill-color: transparent;*/
-/*        -webkit-background-clip: text;*/
-/*        -webkit-text-fill-color: transparent;*/
-/*        animation: animate 2s linear infinite;*/
-
-
-/*    }*/
-
-/*    @keyframes animate {*/
-/*        to{*/
-/*            background-position: 200% center;*/
-/*        }*/
-/*    }*/
-/*    .hero-image{*/
-
-/*        position: relative;*/
-/*        height: 250px;*/
-/*        width: 230px;*/
-/*        margin-top: 0.5%;*/
-/*        margin-left: 0%;*/
-/*        border-bottom-left-radius: 70px;*/
+    .main-head{
+        position: absolute;
+        font-family: Arial;
+        font-size: 70%;
+        text-transform: uppercase;
+        color: white;
+        margin-top: -38%;
+        margin-left: 50%;
+        background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: inherit;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animate 2s linear infinite;
 
 
-/*    }*/
-/*    .circle{*/
-/*        height: 60vh;*/
-/*        width: 45vw;*/
-/*        margin-top: 110px;*/
-/*        margin-left: -5px;*/
+    }
 
-/*    }*/
+    @keyframes animate {
+        to{
+            background-position: 200% center;
+        }
+    }
+    .hero-image{
 
-
-/*    .start{*/
-
-/*        position: absolute;*/
-/*        width: 100px;*/
-/*        height: 35px;*/
-/*        left: 55%;*/
-/*        top:75%;*/
-/*        color: #3C39EB;*/
-/*        font-size: 12px;*/
-/*        font-family: Arial;*/
-/*        border-radius: 10px;*/
-/*        border-color: #FFFFFF;*/
-/*        background-color: #FFFFFF;*/
-/*        font-weight: bold;*/
+        position: relative;
+        height: 250px;
+        width: 230px;
+        margin-top: 0.5%;
+        margin-left: 0%;
+        border-bottom-left-radius: 70px;
 
 
-/*    }*/
+    }
+    .circle{
+        height: 60vh;
+        width: 45vw;
+        margin-top: 110px;
+        margin-left: -5px;
 
-/*    !*Social media links*!*/
-
-
-/*    #follow{*/
-
-/*        position: relative;*/
-/*        left: 613px;*/
-/*        top: -310px;*/
-/*        transform: rotate(270deg);*/
-/*        color: #FFFFFF;*/
-/*        font-family:"Arial";*/
-/*        font-size: 13px;*/
-
-/*        z-index: 3;*/
-
-/*    }*/
-/*    .verticalLine{*/
-
-/*        height: 1px;*/
-/*        width: 65px;*/
-/*        border: 1px solid #FFFFFF;*/
-/*        transform: rotate(270deg);*/
-/*        position: relative;*/
-/*        left:685px;*/
-/*        top: -174px;*/
-/*        color: white;*/
-/*        z-index: 3;*/
-/*    }*/
-
-/*    .facebook{*/
-/*        position: fixed;*/
-
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        left: 706px;*/
-/*        top: 90px;*/
-/*        z-index: 3;*/
-/*    }*/
-
-/*    .instagram{*/
-/*        position: fixed;*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        left: 706px;*/
-/*        top: 130px;*/
-/*        z-index: 3;*/
-/*    }*/
-
-/*    .linkedin{*/
-/*        position: fixed;*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        left: 706px;*/
-/*        top: 170px;*/
-/*        z-index: 3;*/
-/*    }*/
-
-/*    .github{*/
-/*        position: fixed;*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        left: 706px;*/
-/*        top: 210px;*/
-/*        z-index: 3;*/
-/*    }*/
-
-/*    .twitter{*/
-/*        position: fixed;*/
-/*        width: 27px;*/
-/*        height: 27px;*/
-/*        left: 706px;*/
-/*        top: 250px;*/
-/*        z-index: 3;*/
-/*    }*/
-/*}*/
-
-/*@media all and (min-width: 770px) and (max-width: 1025px){*/
-/*    .main{*/
-/*        position: absolute;*/
-/*        width: 70vw;*/
-/*        height: 38vh;*/
-/*        background: #3C39EB;*/
-/*        left: 20%;*/
-/*        margin-top: -40px;*/
-/*        border-radius: 70px;*/
-/*        background-position: inherit;*/
-
-/*    }*/
-
-/*    .main-head{*/
-/*        position: absolute;*/
-/*        font-family: Arial;*/
-/*        font-size: 90%;*/
-/*        text-transform: uppercase;*/
-/*        color: white;*/
-/*        margin-top: -32%;*/
-/*        margin-left: 50%;*/
-/*        background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);*/
-/*        background-size: 200% auto;*/
-/*        color: #000;*/
-/*        background-clip: inherit;*/
-/*        text-fill-color: transparent;*/
-/*        -webkit-background-clip: text;*/
-/*        -webkit-text-fill-color: transparent;*/
-/*        animation: animate 2s linear infinite;*/
+    }
 
 
-/*    }*/
+    .start{
 
-/*    @keyframes animate {*/
-/*        to{*/
-/*            background-position: 200% center;*/
-/*        }*/
-/*    }*/
-/*    .hero-image{*/
-
-/*        position: relative;*/
-/*        height: 330px;*/
-/*        width: 310px;*/
-/*        margin-top: -1.1%;*/
-/*        margin-left: 0%;*/
-/*        border-bottom-left-radius: 70px;*/
-
-
-/*    }*/
-/*    .circle{*/
-/*        height: 60vh;*/
-/*        width: 45vw;*/
-/*        margin-top: 110px;*/
-/*        margin-left: -5px;*/
-
-/*    }*/
+        position: absolute;
+        width: 100px;
+        height: 35px;
+        left: 55%;
+        top:75%;
+        color: #3C39EB;
+        font-size: 12px;
+        font-family: Arial;
+        border-radius: 10px;
+        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+        font-weight: bold;
 
 
-/*    .start{*/
+    }
 
-/*        position: absolute;*/
-/*        width: 130px;*/
-/*        height: 45px;*/
-/*        left: 60%;*/
-/*        top:77%;*/
-/*        color: #3C39EB;*/
-/*        font-size: 14px;*/
-/*        font-family: Arial;*/
-/*        border-radius: 10px;*/
-/*        border-color: #FFFFFF;*/
-/*        background-color: #FFFFFF;*/
-/*        font-weight: bold;*/
+    /*Social media links*/
 
 
-/*    }*/
+    #follow{
 
-/*    !*Social media links*!*/
+        position: relative;
+        left: 613px;
+        top: -310px;
+        transform: rotate(270deg);
+        color: #FFFFFF;
+        font-family:"Arial";
+        font-size: 13px;
+
+        z-index: 3;
+
+    }
+    .verticalLine{
+
+        height: 1px;
+        width: 65px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(270deg);
+        position: relative;
+        left:685px;
+        top: -174px;
+        color: white;
+        z-index: 3;
+    }
+
+    .facebook{
+        position: fixed;
+
+        width: 27px;
+        height: 27px;
+        left: 706px;
+        top: 90px;
+        z-index: 3;
+    }
+
+    .instagram{
+        position: fixed;
+        width: 27px;
+        height: 27px;
+        left: 706px;
+        top: 130px;
+        z-index: 3;
+    }
+
+    .linkedin{
+        position: fixed;
+        width: 27px;
+        height: 27px;
+        left: 706px;
+        top: 170px;
+        z-index: 3;
+    }
+
+    .github{
+        position: fixed;
+        width: 27px;
+        height: 27px;
+        left: 706px;
+        top: 210px;
+        z-index: 3;
+    }
+
+    .twitter{
+        position: fixed;
+        width: 27px;
+        height: 27px;
+        left: 706px;
+        top: 250px;
+        z-index: 3;
+    }
+}
+
+@media all and (min-width: 770px) and (max-width: 1025px){
+    .main{
+        position: absolute;
+        width: 70vw;
+        height: 38vh;
+        background: #3C39EB;
+        left: 20%;
+        margin-top: -40px;
+        border-radius: 70px;
+        background-position: inherit;
+
+    }
+
+    .main-head{
+        position: absolute;
+        font-family: Arial;
+        font-size: 90%;
+        text-transform: uppercase;
+        color: white;
+        margin-top: -32%;
+        margin-left: 50%;
+        background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: inherit;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animate 2s linear infinite;
 
 
-/*    #follow{*/
+    }
 
-/*        position: relative;*/
-/*        left: 840px;*/
-/*        top: -350px;*/
-/*        transform: rotate(270deg);*/
-/*        color: #FFFFFF;*/
-/*        font-family:"Arial";*/
-/*        font-size: 13px;*/
+    @keyframes animate {
+        to{
+            background-position: 200% center;
+        }
+    }
+    .hero-image{
 
-/*        z-index: 3;*/
+        position: relative;
+        height: 330px;
+        width: 310px;
+        margin-top: -1.1%;
+        margin-left: 0%;
+        border-bottom-left-radius: 70px;
 
-/*    }*/
-/*    .verticalLine{*/
 
-/*        height: 1px;*/
-/*        width: 65px;*/
-/*        border: 1px solid #FFFFFF;*/
-/*        transform: rotate(270deg);*/
-/*        position: relative;*/
-/*        left:945px;*/
-/*        top: -210px;*/
-/*        color: white;*/
-/*        z-index: 3;*/
-/*    }*/
+    }
+    .circle{
+        height: 60vh;
+        width: 45vw;
+        margin-top: 110px;
+        margin-left: -5px;
 
-/*    .facebook{*/
-/*        position: fixed;*/
+    }
 
-/*        width: 35px;*/
-/*        height: 35px;*/
-/*        left: 965px;*/
-/*        top: 100px;*/
-/*        z-index: 3;*/
-/*    }*/
 
-/*    .instagram{*/
-/*        position: fixed;*/
-/*        width: 35px;*/
-/*        height: 35px;*/
-/*        left: 965px;*/
-/*        top: 150px;*/
-/*        z-index: 3;*/
-/*    }*/
+    .start{
 
-/*    .linkedin{*/
-/*        position: fixed;*/
-/*        width: 35px;*/
-/*        height: 35px;*/
-/*        left: 965px;*/
-/*        top: 200px;*/
-/*        z-index: 3;*/
-/*    }*/
+        position: absolute;
+        width: 130px;
+        height: 45px;
+        left: 60%;
+        top:77%;
+        color: #3C39EB;
+        font-size: 14px;
+        font-family: Arial;
+        border-radius: 10px;
+        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+        font-weight: bold;
 
-/*    .github{*/
-/*        position: fixed;*/
-/*        width: 35px;*/
-/*        height: 35px;*/
-/*        left: 965px;*/
-/*        top: 250px;*/
-/*        z-index: 3;*/
-/*    }*/
 
-/*    .twitter{*/
-/*        position: fixed;*/
-/*        width: 35px;*/
-/*        height: 35px;*/
-/*        left: 965px;*/
-/*        top: 300px;*/
-/*        z-index: 3;*/
-/*    }*/
-/*}*/
+    }
+
+    /*Social media links*/
+
+
+    #follow{
+
+        position: relative;
+        left: 840px;
+        top: -350px;
+        transform: rotate(270deg);
+        color: #FFFFFF;
+        font-family:"Arial";
+        font-size: 13px;
+
+        z-index: 3;
+
+    }
+    .verticalLine{
+
+        height: 1px;
+        width: 65px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(270deg);
+        position: relative;
+        left:945px;
+        top: -210px;
+        color: white;
+        z-index: 3;
+    }
+
+    .facebook{
+        position: fixed;
+
+        width: 35px;
+        height: 35px;
+        left: 965px;
+        top: 100px;
+        z-index: 3;
+    }
+
+    .instagram{
+        position: fixed;
+        width: 35px;
+        height: 35px;
+        left: 965px;
+        top: 150px;
+        z-index: 3;
+    }
+
+    .linkedin{
+        position: fixed;
+        width: 35px;
+        height: 35px;
+        left: 965px;
+        top: 200px;
+        z-index: 3;
+    }
+
+    .github{
+        position: fixed;
+        width: 35px;
+        height: 35px;
+        left: 965px;
+        top: 250px;
+        z-index: 3;
+    }
+
+    .twitter{
+        position: fixed;
+        width: 35px;
+        height: 35px;
+        left: 965px;
+        top: 300px;
+        z-index: 3;
+    }
+}
