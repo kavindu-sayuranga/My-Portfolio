@@ -628,3 +628,81 @@ header{
         border-bottom-color: #fff;
     }
 }
+
+
+@media all and (min-width: 1026px) and (max-width: 1441px){
+    body{
+        background-color: #1C2AAF;
+    }
+
+
+
+    header{
+        position: fixed;
+        z-index: 15;
+        height: 11vh;
+        width: 98.73vw;
+    }
+
+
+    .MenuRectangle{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 11vh;
+        width: 100vw;
+        background: #1C2AAF;;
+
+    }
+    .logo {
+        position: relative;
+        height: 13vh;
+        width: auto;
+        float: left;
+        margin-left: 20px;
+        margin-top: -8px;
+    }
+
+    /*reusable*/
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+        margin-right: 100px;
+    }
+
+
+
+    /* Navigation Bar*/
+    .main-nav{
+        float: right;
+        list-style: none;
+        margin-top: 28px;
+        color: #fff;
+        font-family: Arial;
+
+    }
+
+    .main-nav li{
+        display: inline-block;
+        padding: 0 10px 0 10px;
+        font-size: 22px;
+        position: relative;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 10px 0;
+        color: #ffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: inherit;
+        font-size: 90%;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.5s;
+
+    }
+
+    .main-nav li a:hover {
+        border-bottom-color: #fff;
+    }
+}

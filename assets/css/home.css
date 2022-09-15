@@ -683,3 +683,159 @@
         z-index: 3;
     }
 }
+
+
+@media all and (min-width: 1026px) and (max-width: 1441px){
+    /* Main page*/
+    .main{
+        position: absolute;
+        width: 63%;
+        height: 50%;
+        background: #3C39EB;
+        left: 25%;
+        top: 30%;
+        border-radius: 120px;
+        background-position: inherit;
+
+    }
+
+    .main-head{
+        position: absolute;
+        font-family: Arial;
+        text-transform: uppercase;
+        color: white;
+        margin-top: -37%;
+        margin-left: 50%;
+        font-size: 22px;
+        background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: inherit;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animate 2s linear infinite;
+
+
+    }
+
+    @keyframes animate {
+        to{
+            background-position: 200% center;
+        }
+    }
+    .hero-image{
+
+        height: 103.5%;
+        width: 50%;
+        margin-top: -2%;
+        margin-left: -0.3%;
+        border-bottom-left-radius: 26%;
+
+    }
+    .circle{
+        height: 90vh;
+        width: 54vw;
+        margin-top: 8%;
+
+    }
+
+
+    .start{
+
+        position: absolute;
+        width: 20%;
+        height: 13%;
+        left: 55%;
+        top:80%;
+        font-size: 130%;
+        color: #3C39EB;
+        /*color: white;*/
+        font-family: Arial;
+        border-radius: 15px;
+        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+        font-weight: bold;
+
+        /*background: linear-gradient(to right,#fff 20%,black 60%,#fff 80%);*/
+        /*background-size: 200% auto;*/
+        /*color: #000;*/
+        /*background-clip: inherit;*/
+        /*text-fill-color: transparent;*/
+        /*-webkit-background-clip: text;*/
+        /*-webkit-text-fill-color: transparent;*/
+        /*animation: animate 2s linear infinite;*/
+
+    }
+
+    /*Social media links*/
+
+
+    #follow{
+
+        position: fixed;
+        left: 1355px;
+        top: 680px;
+        transform: rotate(270deg);
+        color: #FFFFFF;
+        font-family:"Arial";
+        font-size: 13px;
+
+        z-index: 3;
+
+    }
+    .verticalLine{
+        height: 70px;
+        border: 1px solid #FFFFFF;
+        position: fixed;
+        left: 1390px;
+        top: 570px;
+        color: white;
+        z-index: 3;
+    }
+
+    .facebook{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 1370px;
+        top: 210px;
+        z-index: 3;
+    }
+
+    .instagram{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 1370px;
+        top: 270px;
+        z-index: 3;
+    }
+
+    .linkedin{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 1370px;
+        top: 330px;
+        z-index: 3;
+    }
+
+    .github{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 1370px;
+        top: 390px;
+        z-index: 3;
+    }
+
+    .twitter{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 1370px;
+        top: 450px;
+        z-index: 3;
+    }
+}

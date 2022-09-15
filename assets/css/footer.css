@@ -956,3 +956,170 @@ body>footer>section>section:nth-child(2)>p{
         z-index: 3;
     }
 }
+
+
+@media all and (min-width: 1026px) and (max-width: 1441px){
+    .six_page{
+        height: 50vh;
+        width: 98vw;
+        border: 10px solid black;
+        background: black;
+        top: 1080px;
+        position: relative;
+    }
+
+    #get{
+        position: absolute;
+        left: 650px;
+        top: 20px;
+        font-family: 'Arial';
+        color: white;
+        z-index: 3;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    #let{
+        position: absolute;
+        width: 600px;
+        height: 46px;
+        left: 450px;
+        top: 50px;
+        font-family: 'Arial';
+        color: white;
+        z-index: 1;
+        font-size: 33px;
+    }
+
+    .first{
+        position: absolute;
+        width: 972px;
+        height: 29px;
+        left: 17%;
+        top: 120px;
+        font-family: 'Arial';
+        font-size: 18px;
+        color: white;
+        z-index: 1;
+    }
+
+    .second{
+        position: absolute;
+        width: 972px;
+        height: 29px;
+        left: 17%;
+        top: 170px;
+        font-family: 'Arial';
+        font-size: 18px;
+        color: white;
+        z-index: 1;
+    }
+
+    .smallpic{
+        position: absolute;
+        left: 42%;
+        top: 250px;
+        z-index: 2;
+        height: 35px;
+    }
+
+    #reply{
+        position: absolute;
+        width: 255px;
+        height: 29px;
+        left: 43%;
+        top: 240px;
+        font-size: 14px;
+        font-family: 'Arial';
+        color: white;
+        z-index: 1;
+    }
+
+    .mail{
+        position: absolute;
+        width: 220px;
+        height: 50px;
+        top: 320px;
+        margin-left: -300px;
+        font-family: Arial;
+        border-radius: 9px;
+        border-color: blue;
+        background-color: blue;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    .message{
+        position: absolute;
+        width: 220px;
+        height: 50px;
+        top: 320px;
+        margin-left: 50px;
+        font-family: Arial;
+        border-radius: 9px;
+        border-color: limegreen;
+        background-color: limegreen;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    #email{
+        color: white;
+    }
+
+    #number{
+        color: white;
+    }
+
+    .footer_social{
+        position: relative;
+        bottom: -360px;
+
+        margin-left: 360px;
+    }
+
+    .facebookf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .instagramf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .linkedinf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .githubf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    .twitterf{
+        width: 27px;
+        height: 27px;
+        padding-right: 10px;
+    }
+
+    body>footer>section>section:nth-child(2)>p{
+        position: absolute;
+        width: 260px;
+        height: 14px;
+        right: 577px;
+        top: 430px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        /*font-size: 10px;*/
+        line-height: 14px;
+        color: #FFFFFF;
+        z-index: 1;
+    }
+}

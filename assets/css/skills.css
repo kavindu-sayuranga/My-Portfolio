@@ -122,7 +122,7 @@
 }
 
 .java{
-    margin-left: 120px;
+    margin-left: 50px;
     margin-top: 100px;
     height: 50px;
     width: auto;
@@ -188,7 +188,7 @@
 .figma{
     height: 50px;
     width: auto;
-    padding-right: 120px;
+    padding-right: 20px;
 
 }
 
@@ -196,7 +196,7 @@
     height: 50px;
     width: auto;
     padding-right: 20px;
-    margin-left: 120px;
+    /*margin-left: 120px;*/
 
 
 }
@@ -1139,5 +1139,218 @@
         height: 50px;
         width: auto;
         padding-right: 20px;
+    }
+}
+
+
+@media all and (min-width: 1026px) and (max-width: 1441px){
+    .fourth_page{
+        height: 100vh;
+        width: auto;
+        border: 10px solid #1C2AAF;
+    }
+    /*#1C2AAF*/
+    #chart{
+        position: absolute;
+        top: 3200px;
+        height: 80vh;
+        width: 66vw;
+        background-color: white;
+        border-radius: 50px;
+        margin-left: 250px;
+
+    }
+
+
+
+
+
+
+    #skill{
+        font-family: Arial;
+        color: black;
+        margin-left: 75px;
+        font-size: 25px;
+
+    }
+
+    #expert{
+        font-family: Arial;
+        color: #3C39EB;
+        margin-left: 75px;
+        font-size: 35px;
+    }
+
+    .allskill{
+        list-style: none;
+        color: black;
+        font-family: Arial;
+        margin-left: 100px;
+        text-decoration: none;
+
+
+    }
+
+    .designset{
+        font-family: Arial;
+        color: black;
+        font-size: 22px;
+    }
+
+    .design{
+
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid black;
+    }
+
+    .designlist{
+        list-style-type: none;
+        margin-left: -40px;
+
+    }
+
+    .webset{
+        margin-left: 300px;
+        margin-top: -370px;
+        font-size: 22px;
+
+    }
+
+    .web{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border-bottom: 3px solid black;
+    }
+
+    .weblist{
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    .softwareset{
+        margin-left: 600px;
+        margin-top: -272px;
+        font-size: 22px;
+
+
+    }
+
+    .software{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid black;
+    }
+
+    .softwarelist{
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    .java{
+        margin-left: 120px;
+        margin-top: 150px;
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+    }
+
+    .js{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .html{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .css{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .mysql{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .hibernate{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .javafx{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .intelij{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .eclipes{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+        margin-left: 120px;
+
+    }
+
+    .figma{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+    }
+
+    .vscode{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+
+
+    }
+
+    .githubl{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+
+
+    }
+
+    .slack{
+        height: 70px;
+        width: auto;
+        padding-right: 20px;
+
+
     }
 }
