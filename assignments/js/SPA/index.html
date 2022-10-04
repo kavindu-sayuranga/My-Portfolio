@@ -23,28 +23,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-<!--                <ul class="navbar-nav">-->
-<!--                    <li class="nav-item">-->
-<!--                        <button id="dashboardBtn" class="bg-transparent border-0">-->
-<!--                            <a class="nav-link text-light">Dashboard</a>-->
-<!--                        </button>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <button id="orderBtn" class="bg-transparent border-0">-->
-<!--                            <a class="nav-link text-light">Orders</a>-->
-<!--                        </button>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <button id="itemBtn" class="bg-transparent border-0">-->
-<!--                            <a class="nav-link text-light">Items</a>-->
-<!--                        </button>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <button id="customerBtn" class="bg-transparent border-0">-->
-<!--                            <a class="nav-link text-light">Customer</a>-->
-<!--                        </button>-->
-<!--                    </li>-->
-<!--                </ul>-->
+
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -73,7 +52,7 @@
                     <i class="fas fa-users fa-5x me-2 p-4 "></i>
                     <div>
                         <h5 class="mt-3">Customers</h5>
-                        <h3 id="txtCustomerCount" class="mt-3 text-success">0</h3>
+                        <h3 id="txtCustomerCount" class="mt-3 text-danger">0</h3>
                     </div>
 
                 </div>
@@ -82,7 +61,7 @@
                     <i class="fas fa-boxes fa-5x me-2 p-4"></i>
                     <div>
                         <h5 class="mt-3">Items</h5>
-                        <h3 id="txtItemCount" class="mt-3 text-success">0</h3>
+                        <h3 id="txtItemCount" class="mt-3 text-danger">0</h3>
                     </div>
 
                 </div>
@@ -90,13 +69,13 @@
                     <i class="fas fa-cart-plus fa-5x me-2 p-4  "></i>
                     <div>
                         <h5 class="mt-3">Orders</h5>
-                        <h3 id="txtOrderCount" class="mt-3 text-success">0</h3>
+                        <h3 id="txtOrderCount" class="mt-3 text-danger">0</h3>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="row ">
-                    <div class="p-1 px-3 rounded-3 fw-bolder bg-dark text-light fs-3 mt-4 shadow-sm"><i
+                    <div class="p-1 px-3 rounded-3 fw-bolder bg-secondary text-light fs-3 mt-4 shadow-sm"><i
                             class="fas fa-shopping-cart me-1"></i>
                         Order
                     </div>
@@ -163,8 +142,7 @@
                 </div>
                 <div class="row">
                     <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4">
-                        <button id="btnClearOrder" type="button" class="btn btn-danger">Clear</button>
-                        <button id="btnDeleteOrder" type="button" class="btn btn-primary" disabled>Delete</button>
+                        <button id="btnDeleteOrder" type="button" class="btn btn-danger" disabled>Delete</button>
                     </div>
                 </div>
             </div>
@@ -172,7 +150,7 @@
             <hr class="mt-4">
             <div>
                 <div class="row ">
-                    <div class="p-1 px-3 col rounded-3 fw-bolder bg-dark text-light fs-3 mt-1 shadow-sm"><i
+                    <div class="p-1 px-3 col rounded-3 fw-bolder bg-secondary text-light fs-3 mt-1 shadow-sm"><i
                             class="fas fa-chart-line me-2"></i>
                         All Orders
                     </div>
@@ -190,42 +168,7 @@
                     </tr>
                     </thead>
                     <tbody id="allOrderTable">
-                    <tr>
-                        <th scope="row">O001</th>
-                        <td>16/09/2022</td>
-                        <td>Kasun</td>
-                        <td>0.00</td>
-                        <td>3000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">O002</th>
-                        <td>16/09/2022</td>
-                        <td>Udyogi</td>
-                        <td>100.00</td>
-                        <td>2000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">O003</th>
 
-                        <td>16/09/2022</td>
-                        <td>Sandun</td>
-                        <td>50.00</td>
-                        <td>5400</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">O004</th>
-                        <td>16/09/2022</td>
-                        <td>Kasuni</td>
-                        <td>150.00</td>
-                        <td>7200</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">O005</th>
-                        <td>16/09/2022</td>
-                        <td>Ravimal</td>
-                        <td>200.00</td>
-                        <td>5600</td>
-                    </tr>
                     </tbody>
                 </table>
             </div>
@@ -234,10 +177,10 @@
 
 
 
-    <section id="customer" style="display: none">
+    <section id="customer">
         <div>
             <div class="row ">
-                <div class="p-1 px-3 col rounded-3 fw-bolder bg-dark text-light fs-3 mt-4 shadow-sm"><i
+                <div class="p-1 px-3 col rounded-3 fw-bolder bg-secondary text-light fs-3 mt-4 shadow-sm"><i
                         class="fas fa-user-edit me-2"></i>
                     Customer
                 </div>
@@ -260,7 +203,7 @@
                 </div>
 
                 <div class="col-xl col-lg col-sm-12 col-md-4 d-grid justify-content-md-end">
-                    <button type="button" class="btn btn-dark mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
+                    <button type="button" class="btn btn-success mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
                             data-bs-toggle="modal"
                             data-bs-target="#addCustomerModal">+Add Customer
                     </button>
@@ -269,7 +212,7 @@
                          aria-hidden="true">
                         <div class="modal-dialog-centered modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header bg-dark text-light">
+                                <div class="modal-header bg-primary text-light">
                                     <h5 class="modal-title " id="customerAddItemModalLabel">Add New Customer</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
@@ -299,7 +242,6 @@
                                     </form>
                                 </div>
                                 <div class="modal-footer">
-
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
                                     </button>
                                     <button type="button" id="btnCustomerSave" class="btn btn-primary" disabled>Save</button>
@@ -346,7 +288,6 @@
                 </div>
                 <div class="row">
                     <div class="gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4">
-                        <button id="btnCustomerClear" type="button" class="btn btn-secondary">Clear</button>
                         <button id="btnCustomerDelete" type="button" class="btn btn-danger" disabled>Delete</button>
                         <button id="btnCustomerUpdate" type="button" class="btn btn-primary" disabled>Update</button>
                     </div>
@@ -356,7 +297,7 @@
             <hr class="mt-4">
             <div>
                 <div class="row ">
-                    <div class="p-1 px-3 col rounded-3 fw-bolder bg-dark text-light fs-3 mt-1 shadow-sm"><i
+                    <div class="p-1 px-3 col rounded-3 fw-bolder bg-secondary text-light fs-3 mt-1 shadow-sm"><i
                             class="fas fa-users me-2"></i>
                         All Customers
                     </div>
@@ -373,36 +314,7 @@
                     </tr>
                     </thead>
                     <tbody id="customerTable">
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Kavindu</td>
-                        <td>Colombo</td>
-                        <td>500000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Amila</td>
-                        <td>Anuradhapura</td>
-                        <td>40000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Raveesha</td>
-                        <td>Galle</td>
-                        <td>350000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Prasangi</td>
-                        <td>Kurunagala</td>
-                        <td>505000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>Nethmi</td>
-                        <td>Chilaw</td>
-                        <td>360000</td>
-                    </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -410,10 +322,10 @@
     </section>
 
 
-    <section id="item" style="display: none">
+    <section id="item">
         <div>
             <div class="row ">
-                <div class="p-1 px-3 col rounded-3 fw-bolder bg-dark text-light fs-3 mt-4 shadow-sm"><i
+                <div class="p-1 px-3 col rounded-3 fw-bolder bg-secondary text-light fs-3 mt-4 shadow-sm"><i
                         class="fas fa-box-open me-2 fs-4"></i>
                     Item
                 </div>
@@ -435,7 +347,7 @@
                     </form>
                 </div>
                 <div class="col-xl col-lg col-sm-12 col-md-4 d-grid justify-content-md-end ">
-                    <button type="button" class="btn btn-dark mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
+                    <button type="button" class="btn btn-success mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
                             data-bs-toggle="modal"
                             data-bs-target="#addItemModal">+Add Item
                     </button>
@@ -444,7 +356,7 @@
                          aria-hidden="true">
                         <div class="modal-dialog-centered modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header bg-dark text-light">
+                                <div class="modal-header bg-primary text-light">
                                     <h5 class="modal-title " id="addItemModalLabel">Add New Item</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
@@ -519,7 +431,6 @@
                 </div>
                 <div class="row">
                     <div class=" gap-2 d-flex justify-content-center justify-content-md-end justify-content-sm-center  mt-4 mt-lg-2">
-                        <button id="btnItemClear" type="button" class="btn btn-secondary">Clear</button>
                         <button id="btnItemDelete" type="button" class="btn btn-danger" disabled>Delete</button>
                         <button id="btnItemUpdate" type="button" class="btn btn-primary" disabled>Update</button>
                     </div>
@@ -529,7 +440,7 @@
             <hr class="mt-4">
             <div>
                 <div class="row ">
-                    <div class="p-1 px-3 col rounded-3 fw-bolder bg-dark text-light fs-3 mt-1 "><i
+                    <div class="p-1 px-3 col rounded-3 fw-bolder bg-secondary text-light fs-3 mt-1 "><i
                             class="fas fa-boxes me-2"></i>
                         All Items
                     </div>
@@ -547,36 +458,7 @@
                     </tr>
                     </thead>
                     <tbody id="itemTable">
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Coconut Oil</td>
-                        <td>10</td>
-                        <td>500</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Rice</td>
-                        <td>50</td>
-                        <td>350</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Baby Soap</td>
-                        <td>100</td>
-                        <td>350</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Sugar</td>
-                        <td>76</td>
-                        <td>530</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>Chocolate Biscuit</td>
-                        <td>100</td>
-                        <td>200</td>
-                    </tr>
+
 
                     </tbody>
                 </table>
@@ -585,10 +467,10 @@
     </section>
 
 
-    <section id="order" style="display: none">
+    <section id="order">
         <div>
             <div class="row ">
-                <div class="p-1 px-3 col rounded-3 fw-bolder bg-dark text-light fs-3 mt-4 shadow-sm"><i
+                <div class="p-1 px-3 col rounded-3 fw-bolder bg-secondary text-light fs-3 mt-4 shadow-sm"><i
                         class="fas fa-cart-plus me-2"></i>
                     Place Order
                 </div>
@@ -630,19 +512,19 @@
                                     <div class="mb-lg-4 mb-sm-3 mb-3">
                                         <label for="txtOrderCustomerName" class="form-label">Customer</label>
                                         <input type="text" class="form-control" id="txtOrderCustomerName"
-                                               placeholder="Kavindu" disabled>
+                                               placeholder="Kamal" disabled>
                                     </div>
                                 </div>
                             </div>
                             <div class="row gx-3">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
                                     <label for="txtOrderSalary" class="form-label">Salary</label>
-                                    <input type="text" class="form-control" id="txtOrderSalary" placeholder="10000.00"
+                                    <input type="text" class="form-control" id="txtOrderSalary" placeholder="0000.00"
                                            disabled>
                                 </div>
                                 <div class="mb-lg-4 mb-md-5 ">
                                     <label for="txtOrderAddress" class="form-label">Address</label>
-                                    <input type="text" class="form-control" id="txtOrderAddress" placeholder="Anuradhapura"
+                                    <input type="text" class="form-control" id="txtOrderAddress" placeholder="Galle"
                                            disabled>
                                 </div>
                             </div>
@@ -664,7 +546,7 @@
                                 <div class="col">
                                     <div class="mb-4">
                                         <label for="txtOrderItemName" class="form-label">Item</label>
-                                        <input type="text" class="form-control" id="txtOrderItemName" placeholder="Rice"
+                                        <input type="text" class="form-control" id="txtOrderItemName" placeholder="Soap"
                                                disabled>
                                     </div>
                                 </div>
@@ -691,7 +573,7 @@
                                     <input type="number" class="form-control" id="txtOrderQty" placeholder="00">
                                 </div>
                                 <div class="mt-5 d-grid  col-6 mx-auto">
-                                    <button id="btnAddItem" type="button" class="btn btn-dark" disabled>Add Item</button>
+                                    <button id="btnAddItem" type="button" class="btn btn-primary" disabled>Add Item</button>
                                 </div>
                             </div>
                         </div>
@@ -748,7 +630,7 @@
                                     <input type="number" class="form-control" id="txtBalance" placeholder="0000.00" disabled>
                                 </div>
                                 <div class="mt-1 d-grid col-6 mt-xl-2 mx-auto">
-                                    <button id="btnPlaceOrder" type="button" class="btn btn-dark" disabled>Purchase</button>
+                                    <button id="btnPlaceOrder" type="button" class="btn btn-success" disabled>Purchase</button>
                                 </div>
                             </div>
                         </div>
@@ -770,79 +652,77 @@
                     </tr>
                     </thead>
                     <tbody id="addItemTable">
-                    <tr>
-                        <th scope="row">P001</th>
-                        <td>Baby Soap</td>
-                        <td>350</td>
-                        <td>2</td>
-                        <td>700</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">P002</th>
-                        <td>Rice</td>
-                        <td>350</td>
-                        <td>4</td>
-                        <td>1400</td>
-                    </tr>
+
 
                     </tbody>
                 </table>
             </div>
         </section>
     </section>
-
 </main>
 
 
 
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script>
-    $('#dashboardBtn').click(function (){
-        $('#home').css('display','block');
-        $('#order').css('display','none');
-        $('#item').css('display','none');
-        $('#customer').css('display','none');
-        $('#dashboardBtn').css({ 'font-weight': 'bold','color':'white'});
-        $('#customerBtn').css('color','0xC5E1BF');
-        $('#itemBtn').css('color','0xC5E1BF');
-        $('#orderBtn').css('color','0xC5E1BF');
+<!--<script>-->
+<!--    $('#dashboardBtn').click(function (){-->
+<!--        $('#home').css('display','block');-->
+<!--        $('#order').css('display','none');-->
+<!--        $('#item').css('display','none');-->
+<!--        $('#customer').css('display','none');-->
+<!--        $('#dashboardBtn').css({ 'font-weight': 'bold','color':'white'});-->
+<!--        $('#customerBtn').css('color','0xC5E1BF');-->
+<!--        $('#itemBtn').css('color','0xC5E1BF');-->
+<!--        $('#orderBtn').css('color','0xC5E1BF');-->
 
-    });
+<!--    });-->
 
 
-    $('#orderBtn').click(function (){
-        $('#home').css('display','none');
-        $('#order').css('display','block');
-        $('#item').css('display','none');
-        $('#customer').css('display','none');
-        $('#dashboardBtn').css('color','0xC5E1BF');
-        $('#customerBtn').css('color','0xC5E1BF')
-        $('#itemBtn').css('color','0xC5E1BF');
-        $('#orderBtn').css({ 'font-weight': 'bold','color':'white'});
-    });
+<!--    $('#orderBtn').click(function (){-->
+<!--        $('#home').css('display','none');-->
+<!--        $('#order').css('display','block');-->
+<!--        $('#item').css('display','none');-->
+<!--        $('#customer').css('display','none');-->
+<!--        $('#dashboardBtn').css('color','0xC5E1BF');-->
+<!--        $('#customerBtn').css('color','0xC5E1BF')-->
+<!--        $('#itemBtn').css('color','0xC5E1BF');-->
+<!--        $('#orderBtn').css({ 'font-weight': 'bold','color':'white'});-->
+<!--    });-->
 
-    $('#itemBtn').click(function (){
-        $('#home').css('display','none');
-        $('#order').css('display','none');
-        $('#item').css('display','block');
-        $('#customer').css('display','none');
-        $('#dashboardBtn').css('color','0xC5E1BF');
-        $('#customerBtn').css('color','0xC5E1BF')
-        $('#itemBtn').css({ 'font-weight': 'bold','color':'white'});
-        $('#orderBtn').css('color','0xC5E1BF');
-    });
+<!--    $('#itemBtn').click(function (){-->
+<!--        $('#home').css('display','none');-->
+<!--        $('#order').css('display','none');-->
+<!--        $('#item').css('display','block');-->
+<!--        $('#customer').css('display','none');-->
+<!--        $('#dashboardBtn').css('color','0xC5E1BF');-->
+<!--        $('#customerBtn').css('color','0xC5E1BF')-->
+<!--        $('#itemBtn').css({ 'font-weight': 'bold','color':'white'});-->
+<!--        $('#orderBtn').css('color','0xC5E1BF');-->
+<!--    });-->
 
-    $('#customerBtn').click(function (){
-        $('#home').css('display','none');
-        $('#order').css('display','none');
-        $('#item').css('display','none');
-        $('#customer').css('display','block');
-        $('#dashboardBtn').css('color','0xC5E1BF');
-        $('#customerBtn').css('color','white').css({ 'font-weight': 'bold'});
-        $('#itemBtn').css('color','0xC5E1BF');
-        $('#orderBtn').css('color','0xC5E1BF');
-    });
-</script>
+<!--    $('#customerBtn').click(function (){-->
+<!--        $('#home').css('display','none');-->
+<!--        $('#order').css('display','none');-->
+<!--        $('#item').css('display','none');-->
+<!--        $('#customer').css('display','block');-->
+<!--        $('#dashboardBtn').css('color','0xC5E1BF');-->
+<!--        $('#customerBtn').css('color','white').css({ 'font-weight': 'bold'});-->
+<!--        $('#itemBtn').css('color','0xC5E1BF');-->
+<!--        $('#orderBtn').css('color','0xC5E1BF');-->
+<!--    });-->
+<!--</script>-->
+
+<script src="controller/indexController.js"></script>
+
+<script src="db/DB.js"></script>
+<script src="controller/CustomerController.js"></script>
+<script src="controller/ItemController.js"></script>
+<script src="controller/OrderController.js"></script>
+
+<script src="model/Customer.js"></script>
+<script src="model/Items.js"></script>
+<script src="model/Orders.js"></script>
+<script src="model/OrderDetails.js"></script>
 </body>
 </html>
