@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" placeholder="input text" id="ptext">
+<button id="btnOne1">up</button>
+<button id="btnTwo2">down</button>
+<ul>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+</ul>
+
+
+
+<script src="../../../assets/js/jquery-3.6.1.min.js"></script>
+<script>
+  $('#btnOne1').click(function (){
+    $('ul').prepend('<li>'+$('#ptext').val()+'</li>');
+
+  });
+</script>
+</body>
+</html>
