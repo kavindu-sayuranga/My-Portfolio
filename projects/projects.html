@@ -11,6 +11,11 @@
     <link href="../assets/css/header.css" rel="stylesheet">
 
     <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         /* width */
         ::-webkit-scrollbar {
             width: 10px;
@@ -32,10 +37,43 @@
         ::-webkit-scrollbar-thumb:hover {
             background: white;
         }
+
+        .cursor{
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            border: 2px solid white;
+            border-radius: 50%;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: .1s;
+            z-index: 20;
+
+        }
+
+        .cursor2{
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            background-color: white;
+            border-radius: 50%;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: .15s;
+            z-index: 20;
+
+        }
     </style>
 
 </head>
 <body>
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
 <!--header side-->
 <header>
     <!--for Hamburger-->
@@ -245,5 +283,14 @@
         </section>
     </section>
 </main>
+
+<script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function (e){
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+
+</script>
 </body>
 </html>
