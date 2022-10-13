@@ -402,6 +402,23 @@ I’ll try my best get back to you!</pre>
         });
 
     </script>
+
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script>
+        if (window.innerWidth >= 1024) {
+            let sectionsd = [document.querySelector('#first'), document.querySelector('#second'), document.querySelector('#third'), document.querySelector('#fourth'), document.querySelector('#mypro'), document.querySelector('#six')];
+
+            function fade_in(element) {
+                element.css({
+                    'animation-name': 'fade-in',
+                    'animation-duration': '.5s',
+                    'animation-timing-function': 'ease-out',
+                    'animation-iteration-count': '1'
+                });
+            }
+
+        }
+    </script>
 </body>
 
 
