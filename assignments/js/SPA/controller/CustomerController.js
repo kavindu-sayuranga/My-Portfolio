@@ -37,3 +37,11 @@ function updateCustomer() {
     loadAllCustomer();
 
 }
+
+function searchCustomer(id) {
+    for (var i = 0; i < customerDB.length; i++) {
+        if (customerDB[i].getCustomerId() == id) {
+            return customerDB[i];
+        }
+    }
+}
