@@ -20,3 +20,20 @@ function deleteCustomer(index) {
 
 }
 
+function updateCustomer() {
+    let cusName = $("#customerName").val();
+    let cusAddress = $("#customerAddress").val();
+    let cusSalary = $("#customerSalary").val();
+
+    var cusId = $("#customerId").val();
+    var response = searchCustomer(cusId);
+    let index = customerDB.indexOf(response);
+
+    customerDB[index].setCustomerName(cusName);
+    customerDB[index].setCustomerSalary(cusSalary);
+    customerDB[index].setCustomerAddress(cusAddress);
+
+    clearAll();
+    loadAllCustomer();
+
+}
