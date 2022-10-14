@@ -62,6 +62,28 @@ $("#txtCusName").keyup(function () {
     }
 });
 
+$("#txtCusAddress").keyup(function () {
+    let inputCusAddress = $("#txtCusAddress").val();
+    if (regExCusAddress.test(inputCusAddress)) {
+        $("#txtCusAddress").css('border', '2px solid blue');
+        $("#lblCusAddress").text("");
+
+        checkNewCustomerValidation()
+        $("#txtCusAddress").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#txtCusSalary").focus();
+            }
+        });
+
+    } else {
+        $("#txtCusAddress").css('border', '2px solid red');
+        $("#lblCusAddress").text("Cus Name is a required field : Mimum 5");
+
+        $("#btnCustomerSave").prop('disabled', true);
+
+    }
+});
+
 
 $("#btnCustomerSave").click(function () {
 
