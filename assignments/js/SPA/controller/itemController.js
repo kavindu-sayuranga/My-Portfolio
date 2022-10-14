@@ -36,6 +36,25 @@ $("#btnItemDelete").click(function () {
     }
 });
 
+$("#btnItemSearch").click(function () {
+    var searchID = $("#txtItemSearch").val();
+
+    var response = searchItem(searchID);
+    if (response) {
+        $("#itemId").val(response.getItemCode());
+        $("#itemName").val(response.getItemName());
+        $("#itemQtyOnHand").val(response.getItemQty());
+        $("#itemPrice").val(response.getItemPrice());
+
+        $('#itemName,#itemPrice,#itemQtyOnHand').prop('disabled', false);
+        $("#btnItemDelete").prop('disabled', false);
+
+    } else {
+        clearAllItemDetails();
+        alert("No such a Customer")
+    }
+});
+
 
 function saveItem() {
 
