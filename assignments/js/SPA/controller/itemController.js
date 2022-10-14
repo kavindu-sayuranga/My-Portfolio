@@ -84,6 +84,27 @@ $("#txtItemPrice").keyup(function () {
     }
 });
 
+$("#txtItemQty").keyup(function () {
+    let inputItemQty = $("#txtItemQty").val();
+    if (regExItemQty.test(inputItemQty)) {
+        $("#txtItemQty").css('border', '2px solid blue');
+        $("#lblItemQty").text("");
+
+        checkNewItemValidation()
+        $("#txtItemQty").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#btnItemSave").focus();
+            }
+        });
+    } else {
+        $("#txtItemQty").css('border', '2px solid red');
+        $("#lblItemQty").text("Item Qty is a required field : Mimum 1");
+
+        $("#btnItemSave").prop('disabled', true);
+    }
+});
+
+
 $("#btnItemSave").click(function () {
     saveItem();
     clearAllItemDetails();
