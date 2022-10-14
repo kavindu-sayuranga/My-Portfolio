@@ -34,7 +34,7 @@ $("#txtCusId").keyup(function () {
         });
     } else {
         $("#txtCusId").css('border', '2px solid red');
-        $("#lblCusId").text("Cus ID is a required field : Pattern C00-000");
+        $("#lblCusId").text("Customer ID is a required C00-00i");
         $("#btnCustomerSave").prop('disabled', true);
 
     }
@@ -55,7 +55,7 @@ $("#txtCusName").keyup(function () {
 
     } else {
         $("#txtCusName").css('border', '2px solid red');
-        $("#lblCusName").text("Cus Name is a required field : Mimimum 5, Max 20, Spaces Allowed");
+        $("#lblCusName").text("Customer Name is a required Minimum 5, Max 20");
 
         $("#btnCustomerSave").prop('disabled', true);
 
@@ -77,7 +77,7 @@ $("#txtCusAddress").keyup(function () {
 
     } else {
         $("#txtCusAddress").css('border', '2px solid red');
-        $("#lblCusAddress").text("Cus Name is a required field : Mimum 5");
+        $("#lblCusAddress").text("Customer Name is a required Minimum 5");
 
         $("#btnCustomerSave").prop('disabled', true);
 
@@ -98,7 +98,7 @@ $("#txtCusSalary").keyup(function () {
         });
     } else {
         $("#txtCusSalary").css('border', '2px solid red');
-        $("#lblCusSalary").text("Cus Salary is a required field : Pattern 100.00");
+        $("#lblCusSalary").text("Customer Salary is a required 100.00");
 
         $("#btnCustomerSave").prop('disabled', true);
     }

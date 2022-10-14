@@ -46,42 +46,6 @@
 
 <main class="container-md position-relative">
     <section id="home">
-<!--        <div class="mt-4">-->
-<!--            <div class="row gx-3 ">-->
-<!--                <div class="col-xl col-lg-5 col-sm-6 mb-3 d-flex justify-content-center ">-->
-<!--                    <i class="fas fa-users fa-5x me-2 p-4 "></i>-->
-<!--                    <div>-->
-<!--                        <h5 class="mt-3">Customers</h5>-->
-<!--                        <h3 id="txtCustomerCount" class="mt-3 text-success">0</h3>-->
-<!--                    </div>-->
-
-<!--                </div>-->
-
-<!--                <div class="col-lg col-sm-6 d-flex justify-content-center ">-->
-<!--                    <i class="fas fa-boxes fa-5x me-2 p-4"></i>-->
-<!--                    <div>-->
-<!--                        <h5 class="mt-3">Items</h5>-->
-<!--                        <h3 id="txtItemCount" class="mt-3 text-success">0</h3>-->
-<!--                    </div>-->
-
-<!--                </div>-->
-<!--                <div class="col d-flex justify-content-center">-->
-<!--                    <i class="fas fa-cart-plus fa-5x me-2 p-4  "></i>-->
-<!--                    <div>-->
-<!--                        <h5 class="mt-3">Orders</h5>-->
-<!--                        <h3 id="txtOrderCount" class="mt-3 text-success">0</h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <div class="row ">-->
-<!--                    <div class="p-1 px-3 rounded-3 fw-bolder bg-dark text-light fs-3 mt-4 shadow-sm"><i-->
-<!--                            class="fas fa-shopping-cart me-1"></i>-->
-<!--                        Order-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
         <section>
             <div class="row">
                 <div class="col-5 col-sm-3 col-lg-2">
@@ -121,7 +85,7 @@
                     <div class="col col-lg col-sm-12 ">
                         <div class="mb-4">
                             <label for="homeCustomerName" class="form-label">Customer Name</label>
-                            <input type="text" class="form-control" id="homeCustomerName" placeholder="Dasun" disabled>
+                            <input type="text" class="form-control" id="homeCustomerName" placeholder="Kavindu" disabled>
                         </div>
                     </div>
 
@@ -405,13 +369,13 @@
                     <div class="col-5 col-sm-5 col-lg">
                         <div class="mb-4">
                             <label for="itemId" class="form-label">Item Code</label>
-                            <input type="text" class="form-control" id="itemId" placeholder="P00-001" disabled>
+                            <input type="text" class="form-control" id="itemId" placeholder="I00-001" disabled>
                         </div>
                     </div>
                     <div class="col-7 col-sm-7 col-lg">
                         <div class="mb-4">
                             <label for="itemName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="itemName" placeholder="Saop" disabled>
+                            <input type="text" class="form-control" id="itemName" placeholder="Rice" disabled>
                         </div>
                     </div>
 
@@ -667,9 +631,67 @@
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 
-<script src="controller/indexController.js"></script>
+<script>
+    $("#customer").css("display", "none");
+    $("#item").css("display", "none");
+    $("#order").css("display", "none");
+
+
+    $("#dashboardBtn").click(function () {
+        $("#customer").css("display", "none");
+        $("#item").css("display", "none");
+        $("#order").css("display", "none");
+        $("#home").css("display", "block");
+
+        $("#dashboardBtn").css("font-weight", "bold");
+        $("#orderBtn").css("font-weight", "normal");
+        $("#itemBtn").css("font-weight", "normal");
+        $("#customerBtn").css("font-weight", "normal");
+
+    });
+
+    $("#orderBtn").click(function () {
+        $("#customer").css("display", "none");
+        $("#item").css("display", "none");
+        $("#order").css("display", "block");
+        $("#home").css("display", "none");
+
+        $("#orderBtn").css("font-weight", "bold");
+        $("#dashboardBtn").css("font-weight", "normal");
+        $("#itemBtn").css("font-weight", "normal");
+        $("#customerBtn").css("font-weight", "normal");
+
+
+        generateOrderId();
+    });
+
+    $("#customerBtn").click(function () {
+        $("#customer").css("display", "block");
+        $("#item").css("display", "none");
+        $("#order").css("display", "none");
+        $("#home").css("display", "none");
+
+        $("#customerBtn").css("font-weight", "bold");
+        $("#orderBtn").css("font-weight", "normal");
+        $("#dashboardBtn").css("font-weight", "normal");
+        $("#itemBtn").css("font-weight", "normal");
+    });
+
+    $("#itemBtn").click(function () {
+        $("#customer").css("display", "none");
+        $("#item").css("display", "block");
+        $("#order").css("display", "none");
+        $("#home").css("display", "none");
+
+        $("#customerBtn").css("font-weight", "normal");
+        $("#orderBtn").css("font-weight", "normal");
+        $("#dashboardBtn").css("font-weight", "normal");
+        $("#itemBtn").css("font-weight", "bold");
+    });
+</script>
 
 <script src="db/db.js"></script>
+<script src="controller/DashboardController.js"></script>
 <script src="controller/CustomerController.js"></script>
 <script src="controller/itemController.js"></script>
 <script src="controller/OrderController.js"></script>

@@ -36,7 +36,7 @@ $("#txtItemId").keyup(function () {
         });
     } else {
         $("#txtItemId").css('border', '2px solid red');
-        $("#lblItemId").text("Item ID is a required field : Pattern I00-000");
+        $("#lblItemId").text("Item ID is a required I00-000");
         $("#btnItemSave").prop('disabled', true);
 
     }
@@ -57,7 +57,7 @@ $("#txtItemName").keyup(function () {
 
     } else {
         $("#txtItemName").css('border', '2px solid red');
-        $("#lblItemName").text("Item Name is a required field : Mimimum 5, Max 20, Spaces Allowed");
+        $("#lblItemName").text("Item Name is a required Minimum 5, Max 20");
 
         $("#btnItemSave").prop('disabled', true);
 
@@ -79,7 +79,7 @@ $("#txtItemPrice").keyup(function () {
 
     } else {
         $("#txtItemPrice").css('border', '2px solid red');
-        $("#lblItemPrice").text("Item Price is a required field : Pattern 100.00 or 100");
+        $("#lblItemPrice").text("Item Price is a required 100.00 or 100");
 
         $("#btnItemSave").prop('disabled', true);
 
@@ -100,7 +100,7 @@ $("#txtItemQty").keyup(function () {
         });
     } else {
         $("#txtItemQty").css('border', '2px solid red');
-        $("#lblItemQty").text("Item Qty is a required field : Mimum 1");
+        $("#lblItemQty").text("Item Qty is a required Minimum 1");
 
         $("#btnItemSave").prop('disabled', true);
     }

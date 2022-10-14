@@ -26,7 +26,7 @@ $("#btnAddItem").click(function () {
 
             $("#txtTotal").val(total.toFixed(2));
         }else {
-            alert("Numbers of order quantity are exceed the limit");
+            alert("Numbers of order quantity are limit");
         }
 
     }else {
@@ -41,7 +41,7 @@ $("#btnAddItem").click(function () {
             tempDB.push(tempObj);
             $("#txtTotal").val(total.toFixed(2));
         } else {
-            alert("Numbers of order quantity are exceed the limit");
+            alert("Numbers of order quantity are limit");
         }
     }
     loadCart();
@@ -59,34 +59,9 @@ $("#btnPlaceOrder").click(function () {
 
 });
 
-$("#btnDeleteOrder").click(function (){
-    var orderId = $("#homeOrderId").val();
-    var response = searchOrder(orderId);
 
-    let index = orderId.indexOf(response);
-    let res = confirm("Do you really need to delete this order ?");
-    if (res) {
-        deleteOrder(index);
-    }
-});
 
-$("#btnOrderSearch").click(function (){
-    var searchID = $("#txtOrderSearch").val();
 
-    var response = searchOrder(searchID);
-    if (response) {
-        $("#homeOrderId").val(response.getOrderId());
-        $("#homeOrderDate").val(response.getOrderDate());
-        $("#homeDiscount").val(response.getOrderDiscount());
-        $("#homeCost").val(response.getOrderTotal());
-        $("#homeCustomerName").val(findCustomerName(response.getOrderCusId()));
-
-        $("#btnDeleteOrder").prop('disabled', false);
-    } else {
-        clearAllOrderDetails();
-        alert("No such a Order")
-    }
-});
 
 function loadAllCustomerIds() {
     $("#cmbCustomerId").empty();
@@ -192,44 +167,12 @@ function findCustomerName(id) {
     }
 }
 
-function loadAllOrderTable() {
-    $("#allOrderTable").empty();
-    for (var i of orderDB){
-        var orderId=i.getOrderId();
-        var date =i.getOrderDate();
-        var discount=i.getOrderDiscount();
-        var cost=i.getOrderTotal();
-        var cusId=i.getOrderCusId();
 
-        let customerName = findCustomerName(cusId);
-        let row = `<tr><td>${orderId}</td><td>${date}</td><td>${customerName}</td><td>${discount}</td><td>${cost}</td></tr>`;
-        $("#allOrderTable").append(row);
 
-    }
-}
 
-function searchOrder(searchID) {
-    for (var i = 0; i < orderDB.length; i++) {
-        if (orderDB[i].getOrderId() == searchID) {
-            return orderDB[i];
-        }
-    }
-}
 
-function clearAllOrderDetails() {
-    $('#txtOrderSearch,#homeOrderId,#homeOrderDate,#homeCustomerName,#homeDiscount,#homeCost').val("");
-    $("#btnDeleteOrder").prop('disabled', true);
 
-}
 
-function deleteOrder(index) {
-    orderDB.pop(index);
-    clearAllOrderDetails();
-    loadAllOrderTable();
-
-    $("#txtOrderCount").text(orderDB.length);
-
-}
 
 
 function activeAddItemBtn() {
