@@ -36,6 +36,24 @@ $("#btnCustomerUpdate").click(function () {
     updateCustomer();
 });
 
+$("#btnCustomerSearch").click(function () {
+    var searchID = $("#txtCustomerSearch").val();
+
+    var response = searchCustomer(searchID);
+    if (response) {
+        $("#customerId").val(response.getCustomerId());
+        $("#customerName").val(response.getCustomerName());
+        $("#customerAddress").val(response.getCustomerAddress());
+        $("#customerSalary").val(response.getCustomerSalary());
+
+        $('#customerName,#customerSalary,#customerAddress').prop('disabled', false);
+        $("#btnCustomerDelete").prop('disabled', false);
+    } else {
+        clearAll();
+        alert("No such a Customer")
+    }
+});
+
 function saveCustomer() {
 
     let customerID = $("#txtCusId").val();
