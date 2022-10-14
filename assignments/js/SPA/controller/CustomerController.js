@@ -59,3 +59,12 @@ function clearAll() {
     $('#customerName,#customerSalary,#customerAddress').prop('disabled', true);
 
 }
+
+function loadAllCustomer() {
+
+    $("#customerTable").empty();
+    for (var i of customerDB) {
+        let row = `<tr><td>${i.getCustomerId()}</td><td>${i.getCustomerName()}</td><td>${i.getCustomerAddress()}</td><td>${i.getCustomerSalary()}</td></tr>`;
+        $("#customerTable").append(row);
+    }
+}
