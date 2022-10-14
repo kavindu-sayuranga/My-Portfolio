@@ -3,6 +3,23 @@ var regExItemName = /^[A-z\s+]{3,50}$/;
 var regExItemQty = /^[1-9][0-9]*([.][0-9]{2})?$/;
 var regExItemPrice = /^[1-9][0-9]*([.][0-9]{2})?$/;
 
+function checkNewItemValidation() {
+    let inputItemId = $("#txtItemId").val();
+    let inputItemName = $("#txtItemName").val();
+    let inputItemQty = $("#txtItemQty").val();
+    let inputItemPrice = $("#txtItemPrice").val();
+
+    if (regExItemID.test(inputItemId)) {
+        if (regExItemName.test(inputItemName)) {
+            if (regExItemQty.test(inputItemQty)) {
+                if (regExItemPrice.test(inputItemPrice)) {
+                    $("#btnItemSave").prop('disabled', false);
+                }
+            }
+        }
+    }
+}
+
 
 $("#btnItemSave").click(function () {
     saveItem();
