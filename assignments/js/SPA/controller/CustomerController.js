@@ -105,6 +105,22 @@ $("#txtCusSalary").keyup(function () {
 });
 
 
+
+function checkUpdateCustomerValidation() {
+    let inputCusName = $("#customerName").val();
+    let inputCusAddress = $("#customerAddress").val();
+    let inputCusSalary = $("#customerSalary").val();
+
+    if (regExCusName.test(inputCusName)) {
+        if (regExCusAddress.test(inputCusAddress)) {
+            if (regExCusSalary.test(inputCusSalary)) {
+                $("#btnCustomerUpdate").prop('disabled', false);
+            }
+        }
+    }
+}
+
+
 $("#btnCustomerSave").click(function () {
 
     saveCustomer();
