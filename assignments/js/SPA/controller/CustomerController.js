@@ -3,6 +3,22 @@ var regExCusName = /^[A-z\s+]{5,50}$/;
 var regExCusAddress = /^[A-z\s+]{5,50}$/;
 var regExCusSalary = /^[0-9]*([.][0-9]{2})$/;
 
+function checkNewCustomerValidation() {
+    let inputCusId = $("#txtCusId").val();
+    let inputCusName = $("#txtCusName").val();
+    let inputCusAddress = $("#txtCusAddress").val();
+    let inputCusSalary = $("#txtCusSalary").val();
+
+    if (regExCusID.test(inputCusId)) {
+        if (regExCusName.test(inputCusName)) {
+            if (regExCusAddress.test(inputCusAddress)) {
+                if (regExCusSalary.test(inputCusSalary)) {
+                    $("#btnCustomerSave").prop('disabled', false);
+                }
+            }
+        }
+    }
+}
 
 $("#btnCustomerSave").click(function () {
 
