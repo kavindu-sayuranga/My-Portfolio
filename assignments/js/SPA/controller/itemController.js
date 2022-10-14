@@ -25,6 +25,17 @@ $("#btnItemUpdate").click(function () {
     updateItem();
 });
 
+$("#btnItemDelete").click(function () {
+    var itemId = $("#itemId").val();
+    var response = searchItem(itemId);
+
+    let index = itemDB.indexOf(response);
+    let res = confirm("Do you really need to delete this item ?");
+    if (res) {
+        deleteItem(index);
+    }
+});
+
 
 function saveItem() {
 
