@@ -32,6 +32,10 @@ $("#btnCustomerDelete").click(function () {
     }
 });
 
+$("#btnCustomerUpdate").click(function () {
+    updateCustomer();
+});
+
 function saveCustomer() {
 
     let customerID = $("#txtCusId").val();
