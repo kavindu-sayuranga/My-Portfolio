@@ -45,3 +45,17 @@ function searchCustomer(id) {
         }
     }
 }
+
+function clearAll() {
+    $('#txtCusId,#txtCusName,#txtCusAddress,#txtCusSalary,#txtCustomerSearch').val("");
+    $('#customerId,#customerName,#customerAddress,#customerSalary').val("");
+
+    $('#txtCusId,#txtCusName,#txtCusAddress,#txtCusSalary').css('border', '2px solid #ced4da');
+    $('#customerId,#customerName,#customerAddress,#customerSalary').css('border', '2px solid #ced4da');
+
+    $('#txtCusId').focus();
+
+    $('#btnCustomerSave,#btnCustomerUpdate,#btnCustomerDelete').prop('disabled', true);
+    $('#customerName,#customerSalary,#customerAddress').prop('disabled', true);
+
+}
