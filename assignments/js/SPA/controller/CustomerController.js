@@ -21,6 +21,17 @@ $("#btnCustomerSave").click(function () {
     });
 });
 
+$("#btnCustomerDelete").click(function () {
+    var cusId = $("#customerId").val();
+    var response = searchCustomer(cusId);
+
+    let index = customerDB.indexOf(response);
+    let res = confirm("Do you really need to delete this customer ?");
+    if (res) {
+        deleteCustomer(index);
+    }
+});
+
 function saveCustomer() {
 
     let customerID = $("#txtCusId").val();
