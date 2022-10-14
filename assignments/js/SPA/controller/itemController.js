@@ -1,3 +1,26 @@
+$("#btnItemSave").click(function () {
+    saveItem();
+    clearAllItemDetails();
+    loadAllItem();
+    loadAllItemIds();
+
+
+    $("#itemTable>tr").off("click");
+
+    $("#itemTable>tr").click(function () {
+
+        let itemId = $(this).children(":eq(0)").text();
+        let itemName = $(this).children(":eq(1)").text();
+        let itemQty = $(this).children(":eq(2)").text();
+        let itemUnitPrice = $(this).children(":eq(3)").text();
+
+        $("#itemId").val(itemId)
+        $("#itemName").val(itemName)
+        $("#itemQtyOnHand").val(itemQty)
+        $("#itemPrice").val(itemUnitPrice)
+    });
+});
+
 function saveItem() {
 
     //get item details from user inputs
