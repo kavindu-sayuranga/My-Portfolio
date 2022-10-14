@@ -1,3 +1,9 @@
+var regExCusID = /^(C00-)[0-9]{3,4}$/;
+var regExCusName = /^[A-z\s+]{5,50}$/;
+var regExCusAddress = /^[A-z\s+]{5,50}$/;
+var regExCusSalary = /^[0-9]*([.][0-9]{2})$/;
+
+
 $("#btnCustomerSave").click(function () {
 
     saveCustomer();
