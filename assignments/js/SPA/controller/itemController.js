@@ -105,6 +105,21 @@ $("#txtItemQty").keyup(function () {
 });
 
 
+function checkUpdateItemValidation() {
+    let inputItemName = $("#itemName").val();
+    let inputItemPrice = $("#itemPrice").val();
+    let inputItemQty = $("#itemQtyOnHand").val();
+
+    if (regExItemName.test(inputItemName)) {
+        if (regExItemQty.test(inputItemQty)) {
+            if (regExItemPrice.test(inputItemPrice)) {
+                $("#btnItemUpdate").prop('disabled', false);
+            }
+        }
+    }
+}
+
+
 $("#btnItemSave").click(function () {
     saveItem();
     clearAllItemDetails();
