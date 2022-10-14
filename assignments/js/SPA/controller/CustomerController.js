@@ -10,3 +10,13 @@ function saveCustomer() {
     customerDB.push(customer);
 
 }
+
+function deleteCustomer(index) {
+    customerDB.pop(index);
+
+    clearAll();
+    loadAllCustomer();
+    $("#txtCustomerCount").text(customerDB.length);
+
+}
+
