@@ -40,6 +40,29 @@ $("#txtCusId").keyup(function () {
     }
 });
 
+$("#txtCusName").keyup(function () {
+    let inputCusName = $("#txtCusName").val();
+    if (regExCusName.test(inputCusName)) {
+        $("#txtCusName").css('border', '2px solid blue');
+        $("#lblCusName").text("");
+
+        checkNewCustomerValidation()
+        $("#txtCusName").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#txtCusAddress").focus();
+            }
+        });
+
+    } else {
+        $("#txtCusName").css('border', '2px solid red');
+        $("#lblCusName").text("Cus Name is a required field : Mimimum 5, Max 20, Spaces Allowed");
+
+        $("#btnCustomerSave").prop('disabled', true);
+
+    }
+});
+
+
 $("#btnCustomerSave").click(function () {
 
     saveCustomer();
