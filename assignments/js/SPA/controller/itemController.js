@@ -21,6 +21,11 @@ $("#btnItemSave").click(function () {
     });
 });
 
+$("#btnItemUpdate").click(function () {
+    updateItem();
+});
+
+
 function saveItem() {
 
     //get item details from user inputs
