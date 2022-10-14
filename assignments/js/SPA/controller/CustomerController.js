@@ -1,3 +1,26 @@
+$("#btnCustomerSave").click(function () {
+
+    saveCustomer();
+    clearAll();
+    loadAllCustomer();
+    loadAllCustomerIds();
+
+    $("#customerTable>tr").off("click");
+
+    $("#customerTable>tr").click(function () {
+
+        let cusId = $(this).children(":eq(0)").text();
+        let cusName = $(this).children(":eq(1)").text();
+        let cusAddress = $(this).children(":eq(2)").text();
+        let cusSalary = $(this).children(":eq(3)").text();
+
+        $("#customerId").val(cusId)
+        $("#customerName").val(cusName)
+        $("#customerSalary").val(cusSalary)
+        $("#customerAddress").val(cusAddress)
+    });
+});
+
 function saveCustomer() {
 
     let customerID = $("#txtCusId").val();
