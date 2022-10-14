@@ -3,6 +3,8 @@ var regExItemName = /^[A-z\s+]{3,50}$/;
 var regExItemQty = /^[1-9][0-9]*([.][0-9]{2})?$/;
 var regExItemPrice = /^[1-9][0-9]*([.][0-9]{2})?$/;
 
+
+
 function checkNewItemValidation() {
     let inputItemId = $("#txtItemId").val();
     let inputItemName = $("#txtItemName").val();
@@ -119,6 +121,60 @@ function checkUpdateItemValidation() {
     }
 }
 
+$("#itemName").keyup(function () {
+    let inputItemName = $("#itemName").val();
+    if (regExItemName.test(inputItemName)) {
+        $("#itemName").css('border', '2px solid blue');
+        checkUpdateItemValidation()
+        $("#itemName").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#itemQtyOnHand").focus();
+            }
+        });
+
+    } else {
+        $("#itemName").css('border', '2px solid red');
+        $("#btnItemUpdate").prop('disabled', true);
+
+    }
+});
+
+$("#itemQtyOnHand").keyup(function () {
+    let inputItemQty = $("#itemQtyOnHand").val();
+    if (regExItemQty.test(inputItemQty)) {
+        $("#itemQtyOnHand").css('border', '2px solid blue');
+        checkUpdateItemValidation()
+        $("#itemQtyOnHand").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#itemPrice").focus();
+            }
+        });
+
+    } else {
+        $("#itemQtyOnHand").css('border', '2px solid red');
+        $("#btnItemUpdate").prop('disabled', true);
+
+    }
+});
+
+$("#itemPrice").keyup(function () {
+    let inputItemPrice = $("#itemPrice").val();
+    if (regExItemPrice.test(inputItemPrice)) {
+        $("#itemPrice").css('border', '2px solid blue');
+        checkUpdateItemValidation()
+        $("#itemPrice").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#btnItemUpdate").focus();
+            }
+        });
+    } else {
+        $("#itemPrice").css('border', '2px solid red');
+        $("#btnCustomerUpdate").prop('disabled', true);
+    }
+});
+
+
+
 
 $("#btnItemSave").click(function () {
     saveItem();
@@ -176,6 +232,8 @@ $("#btnItemSearch").click(function () {
         alert("No such a Customer")
     }
 });
+
+
 
 
 function saveItem() {
