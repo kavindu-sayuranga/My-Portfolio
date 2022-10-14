@@ -62,6 +62,27 @@ $("#txtItemName").keyup(function () {
     }
 });
 
+$("#txtItemPrice").keyup(function () {
+    let inputItemPrice = $("#txtItemPrice").val();
+    if (regExItemPrice.test(inputItemPrice)) {
+        $("#txtItemPrice").css('border', '2px solid blue');
+        $("#lblItemPrice").text("");
+
+        checkNewItemValidation();
+        $("#txtItemPrice").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#txtItemQty").focus();
+            }
+        });
+
+    } else {
+        $("#txtItemPrice").css('border', '2px solid red');
+        $("#lblItemPrice").text("Item Price is a required field : Pattern 100.00 or 100");
+
+        $("#btnItemSave").prop('disabled', true);
+
+    }
+});
 
 $("#btnItemSave").click(function () {
     saveItem();
