@@ -1,3 +1,9 @@
+var regExItemID = /^(I00-)[0-9]{3,4}$/;
+var regExItemName = /^[A-z\s+]{3,50}$/;
+var regExItemQty = /^[1-9][0-9]*([.][0-9]{2})?$/;
+var regExItemPrice = /^[1-9][0-9]*([.][0-9]{2})?$/;
+
+
 $("#btnItemSave").click(function () {
     saveItem();
     clearAllItemDetails();
