@@ -84,6 +84,26 @@ $("#txtCusAddress").keyup(function () {
     }
 });
 
+$("#txtCusSalary").keyup(function () {
+    let inputCusSalary = $("#txtCusSalary").val();
+    if (regExCusSalary.test(inputCusSalary)) {
+        $("#txtCusSalary").css('border', '2px solid blue');
+        $("#lblCusSalary").text("");
+
+        checkNewCustomerValidation()
+        $("#txtCusSalary").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#btnCustomerSave").focus();
+            }
+        });
+    } else {
+        $("#txtCusSalary").css('border', '2px solid red');
+        $("#lblCusSalary").text("Cus Salary is a required field : Pattern 100.00");
+
+        $("#btnCustomerSave").prop('disabled', true);
+    }
+});
+
 
 $("#btnCustomerSave").click(function () {
 
