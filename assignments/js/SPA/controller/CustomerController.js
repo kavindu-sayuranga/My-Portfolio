@@ -120,6 +120,61 @@ function checkUpdateCustomerValidation() {
     }
 }
 
+$("#customerName").keyup(function () {
+    let inputCusName = $("#customerName").val();
+    if (regExCusName.test(inputCusName)) {
+        $("#customerName").css('border', '2px solid blue');
+        checkUpdateCustomerValidation()
+        $("#customerName").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#customerAddress").focus();
+            }
+        });
+
+    } else {
+        $("#customerName").css('border', '2px solid red');
+        $("#btnCustomerUpdate").prop('disabled', true);
+
+    }
+});
+
+$("#customerAddress").keyup(function () {
+    let inputCusAddress = $("#customerAddress").val();
+    if (regExCusAddress.test(inputCusAddress)) {
+        $("#customerAddress").css('border', '2px solid blue');
+        checkUpdateCustomerValidation()
+        $("#customerAddress").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#customerSalary").focus();
+            }
+        });
+
+    } else {
+        $("#customerAddress").css('border', '2px solid red');
+        $("#btnCustomerUpdate").prop('disabled', true);
+
+    }
+});
+
+$("#customerSalary").keyup(function () {
+    let inputCusSalary = $("#customerSalary").val();
+    if (regExCusSalary.test(inputCusSalary)) {
+        $("#customerSalary").css('border', '2px solid blue');
+        checkUpdateCustomerValidation()
+        $("#customerSalary").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#btnCustomerUpdate").focus();
+            }
+        });
+    } else {
+        $("#customerSalary").css('border', '2px solid red');
+        $("#btnCustomerUpdate").prop('disabled', true);
+    }
+});
+
+
+
+
 
 $("#btnCustomerSave").click(function () {
 
@@ -176,6 +231,9 @@ $("#btnCustomerSearch").click(function () {
         alert("No such a Customer")
     }
 });
+
+
+
 
 function saveCustomer() {
 
