@@ -40,6 +40,28 @@ $("#txtItemId").keyup(function () {
     }
 });
 
+$("#txtItemName").keyup(function () {
+    let inputItemName = $("#txtItemName").val();
+    if (regExItemName.test(inputItemName)) {
+        $("#txtItemName").css('border', '2px solid blue');
+        $("#lblItemName").text("");
+
+        checkNewItemValidation();
+        $("#txtItemName").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#txtItemPrice").focus();
+            }
+        });
+
+    } else {
+        $("#txtItemName").css('border', '2px solid red');
+        $("#lblItemName").text("Item Name is a required field : Mimimum 5, Max 20, Spaces Allowed");
+
+        $("#btnItemSave").prop('disabled', true);
+
+    }
+});
+
 
 $("#btnItemSave").click(function () {
     saveItem();
