@@ -20,6 +20,26 @@ function checkNewItemValidation() {
     }
 }
 
+$("#txtItemId").keyup(function () {
+    let inputItemId = $("#txtItemId").val();
+    if (regExItemID.test(inputItemId)) {
+        $("#txtItemId").css('border', '2px solid blue');
+        $("#lblItemId").text("");
+
+        checkNewItemValidation();
+        $("#txtItemId").keydown(function (event) {
+            if (event.key == "Enter") {
+                $("#txtItemName").focus();
+            }
+        });
+    } else {
+        $("#txtItemId").css('border', '2px solid red');
+        $("#lblItemId").text("Item ID is a required field : Pattern I00-000");
+        $("#btnItemSave").prop('disabled', true);
+
+    }
+});
+
 
 $("#btnItemSave").click(function () {
     saveItem();
